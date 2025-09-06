@@ -1,0 +1,4484 @@
+{
+  "images" : {
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bonus_win_at_table.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1178, 53 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bonus_win_at_table_2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1178, 53 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_10.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_2.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_3.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_4.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_5.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_6.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_7.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_8.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_9.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_a.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_back.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_j.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_joker.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_k.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/card_q.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 225, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1202, 379 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble_pyramid_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 314, 29 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble_pyramid_light.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 314, 29 ],
+      "rows" : 9,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble_top_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 314, 82 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble_top_light.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 314, 82 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/game.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 1024 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/game_.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 1024 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1202, 725 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/logo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 87 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/logo_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 198, 133 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/tag.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 187, 72 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/win_at_table.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1178, 53 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/win_hand_name.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 907, 102 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/machine.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 160, 213 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/room.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 65 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/screen.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 133, 71 ],
+      "rows" : 6,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/splashscreen.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 1024 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_default.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 178, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_default_150.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 267, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_default_blue.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 178, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_minus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 61, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 61, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_auto_minus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 37 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_auto_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 37 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_pause.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_paytable.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_play.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 46, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_shuffle.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_skip.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_turbo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/fieldbackground.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 166, 52 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/info_highlight_freegames.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 75, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/infoback.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 677, 86 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/infoback_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 108, 19 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 103, 70 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_forward.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 103, 70 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_play.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 80, 70 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_slider.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 50, 50 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_autostart.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 232 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_bet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 232 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_extraball.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 228, 132 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 150, 150 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_maxbet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 232 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_pause.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 165, 132 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_resume.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 165, 132 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_select.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 150, 150 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_shuffle.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 165, 132 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 232 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button_turbo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 165, 132 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/touchdeck.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 800 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/player_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 698, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/player_exit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 56, 56 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bg_lastwin.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 192, 60 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/credit_covr.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 351, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/menu_bgbar_bottom.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/menu_divider_bottombar.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 6, 60 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_checkbox.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 42, 38 ],
+      "rows" : 2,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_checkbox_big.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 51, 102 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_copy.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 38, 156 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_copy_mobile.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 38, 156 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_dialog.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 283, 80 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_forward.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 39, 42 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_payinboxbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 209, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_play.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 42 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_player_exit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 47, 47 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_replayslider.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 35 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_rew.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 39, 42 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 304 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_1.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 76 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 76 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 76 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_4.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 76 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_5.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 76 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 76 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 76 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_blue.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 152 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_green.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 152 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 152 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_room_yello.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 82, 152 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_settings.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 280, 288 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_settingsslider.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 33, 132 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_skip.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 51, 51 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_slider.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 35, 41 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_slider_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 35, 41 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/border.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 12, 6 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/but_zoom.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 108 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/but_zoom_2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 108 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/checkmark.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/counter_gamesma.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 7, 25 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/counter_l.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 24, 25 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/counter_nr.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 15, 25 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/counter_nr_2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 15, 25 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/counter_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 5, 25 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/dropdownbox.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 280, 30 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/line_slot_table.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 29, 633 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/loading.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 45, 45 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/makefullscreen.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/makewindow.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/music_off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/music_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/payin.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 646, 400 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/play_now.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 157, 43 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/player.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 23, 23 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/player_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 293, 121 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/reality.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 646, 400 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/reality_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 279, 248 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/reality_bg.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 646, 400 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/reality_check.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 42, 76 ],
+      "rows" : 2,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/reality_check_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 42, 38 ],
+      "rows" : 2,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/reality_no_hader.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 646, 400 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scroll_bg.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 25, 5 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scroll_bg_h.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 18 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scrollarrow_l.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 17, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scrollarrow_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 17, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scrollarrowdown.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 25, 17 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scrollarrowup.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 25, 17 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scrollbar.png" : {
+      "columns" : 3,
+      "inGameSize" : [ 22, 182 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/scrollbar_h.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 18 ],
+      "rows" : 3,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/sessionsettingsback.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 568, 864 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/settingssliderback.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 409, 82 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/slider.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 332, 15 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/slider_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 409, 82 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/slot_casino_limit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 646, 400 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/slot_casino_limit_large.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 646, 450 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/sound_off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/sound_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/width.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/width_no.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 22, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gt_logo_white.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 682, 382 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/buble_green.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/buble_white.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/green.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 345, 106 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/gt_glow.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 542, 207 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/line.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 502, 4 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/logo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/novomatic_interactive.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 319, 19 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/LOADER1/tube.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 266, 103 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/b_menu.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 103, 98 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/clock_background.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 202, 98 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/b_menubutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 330, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/b_menubutton_off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 330, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/b_menubutton_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 330, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/b_musicbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 330, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/b_musicbutton_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 330, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/b_soundbutton_off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 330, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/b_soundbutton_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 330, 72 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/menu_background.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 900, 450 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/gametwist/payindialog.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 900, 433 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/b_exitbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/b_helpbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/b_menubutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/b_musicbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/b_musicbutton_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/b_soundbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/b_soundbutton_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/stargames/menu_background.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1496, 735 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_check.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 176, 352 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_check_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 176, 352 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_exitbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_helpbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_item.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 352 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_menubutton.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 350, 280 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_musicbutton.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 649, 512 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_musicbutton_on.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 649, 512 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_soundbutton.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 649, 512 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/app/b_soundbutton_on.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 649, 512 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/b_exitbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/b_helpbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/b_menubutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/b_musicbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/b_musicbutton_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/b_soundbutton.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/b_soundbutton_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 660, 576 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/menu_background.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1496, 735 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/menu_background_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 850, 481 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/mobile/starvegas/outoftwist_background.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1496, 735 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/arrow_l.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 72, 28 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/arrow_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 72, 28 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_auto_stop.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_bet_down.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 118 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_bet_up.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 118 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_cancel.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_check.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 92, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_check_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 92, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_collect.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_collect_fast.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_exit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 86, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_extra_ball.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_help.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_max_bet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_menu.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 86, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_music.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_music_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_payin.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 112, 105 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_paytable.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 86, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_paytable_exit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_paytable_exit_dark.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_paytable_exit_outline.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_shop.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 86, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_sound.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_sound_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_start_fast.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 524 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_turbo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/b_turbo_on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 86 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/message_arrow_left.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 74, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/message_arrow_right.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 74, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/message_freesp_line.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1370, 85 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/message_line.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1370, 85 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/paytable_page.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 29, 29 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/paytable_page_dark.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 29, 29 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/paytable_page_outline.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 29, 29 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/turnscreenanimation.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 326, 234 ],
+      "rows" : 3,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/onebutton/turnscreenanimation_portrait.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 326, 234 ],
+      "rows" : 3,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_controlbar_exit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 137, 65 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_controlbar_screenmode.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 176, 63 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_controlbar_sound.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 205, 64 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/close-icon-mobile.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 61, 61 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/close-icon.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 19, 19 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/rulespage_scroll_bar.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 14, 70 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/rulespage_scroll_bg-mobile.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 5, 573 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/rulespage_scroll_bg.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 4, 573 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skip.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 115, 460 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/1.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/11.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/12.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/13.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/4.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/5.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardset_triestine/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetberlin/b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetberlin/d.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetberlin/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetberlin/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetberlin/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/10.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/4.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/5.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/8.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/9.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/a.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigit/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 320, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/10.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/2.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/3.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/4.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/5.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/6.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/7.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/8.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/9.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/a.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/cardback.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/j.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/joker.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/k.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetbigdigithi/q.png" : {
+      "columns" : 4,
+      "inGameSize" : [ 200, 300 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/10.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/8.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/9.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/a.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetfrench/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/4.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/5.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/a.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/j_8.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/k_10.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes/q_9.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/4.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/5.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/a.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetnaipes_extra/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetpoker/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetpoker/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetpoker/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/10.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/8.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/9.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/a.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetsalzburg/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/10.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/8.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/9.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/a.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsettell/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/10.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/4.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/5.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/6.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/7.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/8.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/9.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/a.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/d.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/j.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/k.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/cardsetvienna/q.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 448, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/extra/cardback.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 112, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/extra/cardblank.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 112, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/extra/joker.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 112, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gamesmonres/extra/shadow.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 112, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/check-off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 83, 44 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/check-on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 83, 44 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/checkmark.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/clock.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 23, 20 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/close-icon.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 19, 19 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/extrabet-off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 40 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/extrabet-on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 40 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/full_scr.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 23, 20 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/home-icon.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 23, 20 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/infopage_skip.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 68, 74 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/left-arr.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 38, 74 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/line-paging-back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 25, 31 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/line-paging-next.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 25, 31 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/lines.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 15 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/menu-deposit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 32 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/menu-help.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 32 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/menu-home.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 32 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/menu-paytable.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 32 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/menu-replay.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 32 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/menu-settings.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 32 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/auto-off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 56, 25 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/auto-on.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 56, 25 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/close-icon.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 32, 32 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/fast.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 47, 51 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/gamble-card.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 350, 200 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/gamble-single.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 455, 200 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/hamburger.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 42, 37 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/layout-left.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 180 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/layout-right.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 340, 180 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/lines.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 76, 35 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/menu-deposit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 42, 43 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/menu-help.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 46, 46 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/menu-home.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 45, 36 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/menu-linesico.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 46, 46 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/menu-paytable.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 46, 46 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/menu-replay.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 36, 36 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/menu-settings.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 43, 44 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/off-icon.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 44, 44 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/on-icon.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 44, 44 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/rotate.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 75, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/settings-sound-and-music.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 26, 20 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/settings-sound-off.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 21, 15 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/settings-sound-only.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 20, 18 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/spin.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 140, 131 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/mobile/spin_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 40, 37 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/norm_scr.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 23, 20 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/novo-logo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 94, 15 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/payt-arrow-left.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 39 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/payt-arrow-right.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 39 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/payt-magnifier.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 74, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/right-arr.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 38, 74 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/neon/spinloader.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 76, 76 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/replay/replay-back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 10, 10 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/replay/replay-close.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 18, 18 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/replay/replay-fw.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 10, 10 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/greentube/gameconsole/res/replay/replay-play.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 10, 10 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_auto_minus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 37 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_auto_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 31, 37 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_black_v3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 256, 111 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_red_v3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 256, 111 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_maxbet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 147, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_paytable.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 46, 52 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_skip.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 171, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_backward_big.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 628 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_close.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 103, 392 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_close_big.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 628 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_forward_big.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 628 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_gamble_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 350, 157 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_gamble_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 350, 157 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 103, 392 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_minus_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 312 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_play_big.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 628 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_plus_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 316 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_skip.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 168, 156 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_skip_big.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 346, 156 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 168, 74 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 168, 156 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/b_start_big.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 346, 156 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/console2.png" : {
+      "columns" : 3,
+      "inGameSize" : [ 210, 156 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/console2red.png" : {
+      "columns" : 3,
+      "inGameSize" : [ 210, 156 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/display_win_lines.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 157 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/gradient.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 151, 528 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/gradient_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 151, 528 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/info_highlight_supergame.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 157 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/paytable_backward.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 160, 696 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/bigbutton/paytable_forward.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 160, 696 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/button.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 178, 244 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/fieldbackground.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 166, 52 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/fieldbackground2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 62, 52 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble/gamble_card.png" : {
+      "columns" : 6,
+      "inGameSize" : [ 210, 299 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble/gamble_card_tiny.png" : {
+      "columns" : 6,
+      "inGameSize" : [ 76, 108 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble/gamble_card_tiny_v2.png" : {
+      "columns" : 6,
+      "inGameSize" : [ 69, 97 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble/gamble_card_v2.png" : {
+      "columns" : 6,
+      "inGameSize" : [ 182, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble/gamble_win.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 478, 600 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/gamble/gamble_win_h.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 669, 292 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 1536, 1024 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/hide_credit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 476, 21 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/html5/b_close.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 146, 392 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/html5/b_menu.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 146, 392 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/info_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/info_highlight_freegames.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 75, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/info_highlight_supergame.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 75, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/info_highlight_supergame_neon.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 100, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/infoback.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 677, 86 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/infoback_small.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 108, 19 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/logo_background.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 436, 129 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/novo/astra-logo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 842, 513 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/novo/betafilm.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 261, 19 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/novo/gamblebutton_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 350, 239 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/novo/gamblebutton_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 350, 239 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/novo/novomatic.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 101, 19 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/novo/novomatic2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 77, 13 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/novo/winlines.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 79, 56 ],
+      "rows" : 20,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/paytableback.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 1232, 708 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/replay_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 350, 157 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/machine.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 160, 213 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/room.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 65 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/slot.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 133, 71 ],
+      "rows" : 6,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_c.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_g.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_bonus_v.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 149, 193 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_c.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_g.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/user_v.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 110, 161 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_autoplay.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 120, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 370, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_gambling_switch.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 313, 63 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_lines.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 120, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_maxBet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 120, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_menu.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 120, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_paytable_buttons.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 491, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_replay.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 457, 194 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 370, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/UI_totalBet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 370, 119 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/keyboard_down_arrow.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 100, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/keyboard_left_arrow.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 100, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/keyboard_right_arrow.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 100, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/keyboard_space.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 280, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/keyboard_tab.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 146, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/rulespage/keyboard_up_arrow.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 100, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/b_animation.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 180, 2772 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/b_arrow_minus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 37, 104 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/b_arrow_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 37, 104 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/b_autospin.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 144, 216 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/b_gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 144, 216 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/b_paytable.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 144, 216 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/b_spin.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 180, 504 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/console_bg.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 180 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/console_bg_blue.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 180 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/skyvegas/field_default.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 152, 58 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/starvegas/18plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 96, 93 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/starvegas/aams_01.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 121, 93 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/starvegas/aams_02.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 169, 93 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/starvegas/headerBar.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 30, 88 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/starvegas/powered_by_starvegas.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 255, 35 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/supergame/action_game_back.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 1232, 708 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/supergame/ag_images_wheel.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 2080, 1040 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/supergame/ag_lose.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 92, 48 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/supergame/lose.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 89, 36 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/supergame/s_reel.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 686, 510 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/supergame/wheel.jpg" : {
+      "columns" : 1,
+      "inGameSize" : [ 1232, 708 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/arrow_l.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 72, 112 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/arrow_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 72, 112 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 103, 70 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_classic.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 189, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_forward.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 103, 70 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_fruits.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 159, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 208 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 208 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_gamble_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 208 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 45, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_multi_lines.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 159, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_payout.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 89, 75 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_paytable.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 216, 208 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_paytable_2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 130, 208 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_play.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 80, 70 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_plus_bordered.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 66, 288 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_powe_lines.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 159, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_slider.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 50, 50 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_specials.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 189, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/b_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 448 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_auto.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 158, 612 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_bet_max.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 160, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_bet_min.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 160, 256 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_default.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 128, 332 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_gamble_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 158, 612 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_gamble_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 158, 612 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_hide.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 81, 148 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_line_minus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 71, 404 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_line_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 71, 404 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_qa_code.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 123, 480 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_small_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 123, 480 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 158, 612 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/b_start_clear.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 158, 612 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/deck_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1366, 258 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/display_frame.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 170, 81 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel/gamble_bg.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 580, 218 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/button_autostart.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 928 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/button_bet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 928 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/button_gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 228, 528 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/button_info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 150, 600 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/button_maxbet.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 928 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/button_select.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 150, 600 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/button_start.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 232, 928 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/lower_bar.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 54 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/touchdeck.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 800 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel4/upper_bar.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 64 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_collect.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 286, 363 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_default.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 240, 960 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_default_single.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 334, 334 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_exit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 80, 80 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_gamble_b.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 240, 960 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_gamble_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 286, 363 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_gamble_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 240, 960 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_gamble_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 286, 363 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 80, 80 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_max.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 28, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_min.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 28, 30 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_minus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 42, 42 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_payout.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 80, 80 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_plus.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 42, 42 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_qr.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 80, 80 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/b_spin.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 160, 320 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/betselectorcover_l.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 77 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/betselectorcover_r.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 88, 77 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/deck_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1920, 363 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/high_background.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1280, 800 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/logo_novo.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 192, 208 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/logo_novo_2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 153, 168 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/buttonpanel_v2/qr_code.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 80, 80 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/fieldbackground3.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 50, 41 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/hide_credit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 414, 41 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/info_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1366, 1 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/player_back.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 698, 120 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/player_exit.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 56, 56 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/VIP_cards.png" : {
+      "columns" : 6,
+      "inGameSize" : [ 210, 299 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/VIP_gamble_black.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 335, 239 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/VIP_gamble_red.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 335, 239 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/balance-holder.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 398, 92 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/bttn_autoplaymeter.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 100, 58 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/bttn_autoplaymeter_cancel.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 152, 41 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/bttn_info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 58, 58 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/bttn_mobile.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 116, 110 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/click.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 150, 150 ],
+      "rows" : 21,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/game-settings-btn.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 58, 58 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/gs-bg.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1920, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/hide_ico.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 57, 44 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/tap_show.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 262, 45 ],
+      "rows" : 4,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/vip_bgbar_gamble.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1920, 50 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/vip_bttn_info.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 92, 368 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/vip_gs_bg.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 1920, 100 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/vip_menu_divider_bottombar.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 6, 62 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/plurius/win-holder.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 446, 92 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/winlimitmessage.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 1024 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/winlimitmessage_v2.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 2048, 1024 ],
+      "rows" : 1,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/winline20.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 50, 26 ],
+      "rows" : 40,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/winline25.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 50, 22 ],
+      "rows" : 50,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    },
+    "/games/AmericanPokerTheLegendsIIGT/source/res/winline50.png" : {
+      "columns" : 1,
+      "inGameSize" : [ 50, 9 ],
+      "rows" : 100,
+      "xfactor" : 1.0,
+      "yfactor" : 1.0
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+	"unicode_range_file_version": "1.0.0",
+	"languages": {
+		"english-us": {
+			"supported": "100.0"
+		},
+		"english": {
+			"supported": "100.0"
+		},
+		"german": {
+			"supported": "100.0"
+		},
+		"albanian": {
+			"supported": "100.0"
+		},
+		"armenian": {
+			"supported": "100.0"
+		},
+		"bulgarian": {
+			"supported": "100.0"
+		},
+		"chinese": {
+			"supported": "100.0"
+		},
+		"croatian": {
+			"supported": "100.0"
+		},
+		"czech": {
+			"supported": "100.0"
+		},
+		"danish": {
+			"supported": "100.0"
+		},
+		"dutch": {
+			"supported": "100.0"
+		},
+		"french": {
+			"supported": "100.0"
+		},
+		"georgian": {
+			"supported": "100.0"
+		},
+		"greek": {
+			"supported": "100.0"
+		},
+		"hungarian": {
+			"supported": "100.0"
+		},
+		"italian": {
+			"supported": "100.0"
+		},
+		"latvian": {
+			"supported": "100.0"
+		},
+		"macedonian": {
+			"supported": "100.0"
+		},
+		"norwegian": {
+			"supported": "100.0"
+		},
+		"polish": {
+			"supported": "100.0"
+		},
+		"portuguese-br": {
+			"supported": "100.0"
+		},
+		"portuguese": {
+			"supported": "100.0"
+		},
+		"romanian": {
+			"supported": "100.0"
+		},
+		"russian": {
+			"supported": "100.0"
+		},
+		"serbian": {
+			"supported": "100.0"
+		},
+		"slovak": {
+			"supported": "100.0"
+		},
+		"slovenian": {
+			"supported": "100.0"
+		},
+		"spanish-la": {
+			"supported": "100.0"
+		},
+		"spanish": {
+			"supported": "100.0"
+		},
+		"swedish": {
+			"supported": "100.0"
+		},
+		"turkish": {
+			"supported": "100.0"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "scenes": {
+        "main-scene":{"content": [
+            {"@P": {"#ID": "ui/uacu.game-wrapper", "background": {"background": "background"}, "content": {"type": "vport", "layout": {"base": [1100, 720]}, "content": [
+                {"id": "main_content", "visible": false, "type": "vport", "size": [1100, 720], "layout": {"base": [1100, 720]}, "content": [
+                    {"@P": "ui/main", "pos": [5, 68]},
+                    {"@P": "ui/respin.logo", "size": [382, 104], "pos": [362, 22]},
+                    {"@P": "ui/messages", "size": [994, 17], "pos": [56, 587]},
+                    {"@P": "ui/reelset", "size": [985, 456], "pos": [59, 114]},
+
+                    {"@P": "ui/sb.left",  "size": [25, 489], "pos": [41,   102]},
+                    {"@P": "ui/sb.right", "size": [25, 489], "pos": [1040, 102]},
+
+                    {"@P": "ui/bottom-bar", "size": [1100, 120], "pos": [0, 590]},
+                    {"@P": "ui/fsb-bar", "size": [1600, 221], "pos": [-250, 605]},
+                    {"@P": "ui/6oak.box", "size": [985, 456], "pos": [59, 100]},
+                    {"@P": "ui/snake.intro", "size": [1600, 878], "pos": [-250, -41]}
+                ]},
+                {"id": "splash_screen", "@P": "ui/splash-screen", "visible": false}
+            ]}}, "size-max": [-1, -1]},
+
+            {"@P": "ui/fsb-info-popup"},
+            {"@P": "ui/confirm-dialog"},
+            {"id": "webView", "type": "webview", "visible": false, "props": {"anchor.fit": 0}}
+        ]}
+    }
+}

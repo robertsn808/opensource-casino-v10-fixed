@@ -1,0 +1,13 @@
+{
+    "scenes": {
+        "paytable-scene": {"type": "anchor", "snap": false, "content": [
+            {"@P": "ui/bg.widget"},
+            {"type": "panel", "background": "#60000000", "props": {"anchor.fit": 0}},
+            {"@P": {"#ID": "ui/paytable", "panel": {"props": {"anchor.fit": "null 0"}, "ratio": 0.38}, "container": {"content": [
+                {"type": "image", "slice": "paytable.1"},
+                {"type": "image", "slice": "paytable.2"},
+                {"type": "image", "slice": "paytable.3"}
+            ]}}}
+        ]}
+    }
+}

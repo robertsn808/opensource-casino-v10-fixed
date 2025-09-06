@@ -1,0 +1,51 @@
+#FreespinAnimation
+{
+	z-index: 900;
+}
+
+#FreespinAnimation .startView
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/en/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.bg
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/bg/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.ru
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/ru/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.nl
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/nl/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.fr
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/fr/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.es
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/es/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.mk
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/mk/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.ro
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/ro/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+
+#FreespinAnimation .startView.pt
+{
+
+	background: url('BaseSlotEngine/games/AAJSlot/freespinAnimation/images/pt/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}

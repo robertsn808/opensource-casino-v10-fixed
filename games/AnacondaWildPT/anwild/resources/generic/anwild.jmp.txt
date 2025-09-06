@@ -1,0 +1,43 @@
+{
+    "modules": {
+        "default": {
+            "window":{
+                "pos": "center",
+                "size": [1600, 878]
+            },
+            "jmms": [
+                "slot/common/media.jmm",
+                "/slot/common/desktop-controls.jmm",
+                "/slot/common/desktop-messages.jmm",
+                "/slot/common/desktop-dialog.jmm",
+                "/slot/common/desktop-fsb-bar.jmm",
+                "/slot/common/engine-settings.jmm",
+                "/slot/common/uacu-controls.jmm",
+                "/slot/common/desktop/uacu-controls.jmm",
+                "/slot/common/debug_config.jmm",
+
+                "config/config.jmm",
+                "config/snake_config.jmm",
+                "animations/animations.jmm",
+                "animations/dwb_animations.jmm",
+                "formats.jmm",
+                "images/images.jmm",
+                "media.jmm",
+                "ui/ui.jmm",
+                "scenes/loading.jmm",
+                "scenes/paytable.jmm",
+                "scenes/main.jmm",
+                "controls/reelset.jmm",
+                "controls/side-buttons.jmm",
+                "controls/bottom-bar.jmm"
+            ],
+            "localizedBrandedJmms": [
+                "../../translations/jmm/slot/common/texts/texts_en.jmm",
+                "../../translations/jmm/slot/common/texts/dt_texts_en.jmm",
+                "../../translations/jmm/texts/texts_en.jmm",
+                "../../translations/jmm/dwb/dwb_en.jmm",
+                "../../translations/jmm/respin/respin_en.jmm"
+            ]
+        }
+    }
+}

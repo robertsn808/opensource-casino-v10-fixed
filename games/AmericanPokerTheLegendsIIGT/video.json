@@ -1,0 +1,13 @@
+{
+  "videos" : {
+    "/source/res/logo" : {
+      "atlases" : 9,
+      "format" : "jpg",
+      "fps" : 20,
+      "frames" : 50,
+      "height" : 300,
+      "preferred_format" : "default",
+      "width" : 2048
+    }
+  }
+}

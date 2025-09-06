@@ -1,0 +1,70 @@
+{
+    "resources": {
+        "audio":{
+            "pools":{
+                "sfx":    {"url": {"audio/mpeg": "Anaconda_Wild_mob_30.04.18_pt_1.mp3", "audio/ogg": "Anaconda_Wild_mob_30.04.18_pt_1.ogg"}, "polyphony": 5, "preload": "main-scene"},
+                "ambient":{"url": {"audio/mpeg": "Anaconda_Wild_mob_30.04.18_pt_1.mp3", "audio/ogg": "Anaconda_Wild_mob_30.04.18_pt_1.ogg"}, "polyphony": 2, "preload": "main-scene, paytable-scene"},
+                "music":  {"url": {"audio/mpeg": "Anaconda_Wild_mob_30.04.18_pt_1.mp3", "audio/ogg": "Anaconda_Wild_mob_30.04.18_pt_1.ogg"}, "polyphony": 5, "preload": "main-scene"},
+                "music2": {"url": {"audio/mpeg": "Anaconda_Wild_mob_8.05.18_pt_2.mp3", "audio/ogg": "Anaconda_Wild_mob_8.05.18_pt_2.ogg"}, "polyphony": 5, "preload": "main-scene"},
+                "respin": {"url": {"audio/mpeg": "Anaconda_Wild_mob_8.05.18_pt_3.mp3", "audio/ogg": "Anaconda_Wild_mob_8.05.18_pt_3.ogg"}, "polyphony": 8, "preload": "aw-re-spin"},
+                "respin_ambient": {"url": {"audio/mpeg": "Anaconda_Wild_mob_8.05.18_pt_3.mp3", "audio/ogg": "Anaconda_Wild_mob_8.05.18_pt_3.ogg"}, "polyphony": 2, "preload": "aw-re-spin"},
+                "respin_tickup":  {"url": {"audio/mpeg": "Anaconda_Wild_mob_8.05.18_pt_3.mp3", "audio/ogg": "Anaconda_Wild_mob_8.05.18_pt_3.ogg"}, "polyphony": 2, "preload": "aw-re-spin"}
+            },
+
+            "sounds": {
+                "silence": {"frame": [0, 2000]},
+
+                "main_ambient":   {"mono": "ignore",    "frame": [2000, 76569], "pool": "ambient", "type": "aw-cross-loop", "fade-in-duration": 500, "fade-out-duration": 500, "shift": 1000, "fade": true},
+                "spin_button":    {"@P": "sounds/spin_button" ,    "frame": [78869, 1402]},
+                "spin_1":         {"mono": "ignore",    "frame": [80571, 3760], "pool": "music"},
+                "spin_2":         {"mono": "ignore",    "frame": [84631, 3760], "pool": "music"},
+                "spin_3":         {"mono": "ignore",    "frame": [88691, 3760], "pool": "music"},
+                "spin_4":         {"mono": "ignore",    "frame": [92751, 3760], "pool": "music"},
+                "turbo_spin_1":   {"mono": "ignore",    "frame": [113602, 1772], "pool": "music"},
+                "turbo_spin_2":   {"mono": "ignore",    "frame": [115674, 1759], "pool": "music"},
+                "turbo_spin_3":   {"mono": "ignore",    "frame": [117733, 1823], "pool": "music"},
+                "turbo_spin_4":   {"mono": "ignore",    "frame": [119856, 1926], "pool": "music"},
+
+                "continue_button": {"@P": "sounds/continue_button", "frame": [98126, 1209]},
+                "plus_button":    {"@P": "sounds/plus_button",     "frame": [105784, 293]},
+                "minus_button":   {"@P": "sounds/minus_button",    "frame": [106377, 288]},
+                "info_button":    {"@P": "sounds/plus_button",     "frame": [98126, 1209]},
+                "reel_stop":      {"@P": "sounds/reel_stop",       "frame": [96811, 405]},
+                "manual_stop":    {"@P": "sounds/manual_stop",     "frame": [99635, 565]},
+                "tick":           {"@P": "sounds/tick",            "frame": [97516, 310]},
+                "slide_in":        {"@P": "sounds/slide_in",       "frame": [103995, 855]},
+                "slide_out":       {"@P": "sounds/slide_out",      "frame": [105150, 334]},
+
+                "autoplay_start": {"@P": "sounds/autoplay_start", "frame": [100500, 1320]},
+                "autoplay_stop":  {"@P": "sounds/autoplay_stop",  "frame": [102120, 1575]},
+
+                "five_oak":     {"frame": [2000, 2807],  "pool": "music2"},
+                "win.tickup_low":   {"frame": [5407, 4020], "type": "smooth", "mono": "force", "pool": "music2"},
+                "win.tickup_high":  {"frame": [9727, 15461], "type": "smooth", "mono": "force", "pool": "music2"},
+                "big_win":      {"frame": [31953, 1758], "mono": "force", "pool": "music2"},
+                "mega_win":     {"frame": [34011, 1720], "mono": "force", "pool": "music2"},
+                "respin_start": {"frame": [36031, 3322], "mono": "force", "pool": "music2"},
+                "win_stop_1":   {"frame": [25488, 2406], "mono": "force", "pool": "music2"},
+                "win_stop_2":   {"frame": [28194, 3459], "mono": "force", "pool": "music2"},
+                "wild_fire":    {"frame": [39653, 1619], "mono": "force", "pool": "music2"},
+
+                "win_collected": {"frame": [111930, 1372], "mono": "force", "pool": "sfx"},
+
+                "respin_ambient":           {"frame": [2000, 38700], "mono": "force", "pool": "respin_ambient", "type": "aw-cross-loop", "shift": 300, "fade": true},
+                "respin_doors_open":        {"frame": [41000, 645], "mono": "force", "pool": "respin"},
+                "respin_added_wild":        {"frame": [41945, 1858], "mono": "force", "pool": "respin"},
+                "respin_doors_close":       {"frame": [53395, 1416], "mono": "force", "pool": "respin"},
+                "respin_snake_move_back":   {"frame": [44104, 3474], "mono": "force", "pool": "respin"},
+
+                "respin_snake_move_1":      {"frame": [47878, 1540], "mono": "force", "pool": "respin"},
+                "respin_snake_move_2":      {"frame": [49718, 1528], "mono": "force", "pool": "respin"},
+                "respin_snake_move_3":      {"frame": [51546, 1505], "mono": "force", "pool": "respin"},
+
+                "respin_special_wild_stop": {"frame": [55831, 2985], "mono": "force", "pool": "respin"},
+                "respin_tickup_stop":       {"frame": [98116, 527],   "mono": "force", "pool": "respin"},
+                "respin_tickup":            {"frame": [59116, 38700], "mono": "force", "pool": "respin_tickup", "type": "aw-cross-loop", "shift": 300, "fade": true},
+                "respin_fire_frame":        {"frame": [108187, 3443], "mono": "force", "pool": "music"}
+            }
+        }
+    }
+}

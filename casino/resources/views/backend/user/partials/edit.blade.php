@@ -15,7 +15,7 @@
 		<label>@lang('app.shops')</label>
 		<select name="shops[]" id="shops" class="form-control" {{ $edit ? 'disabled' : '' }} {{ $edit && $user->hasRole(['agent', 'distributor']) ? 'multiple' : '' }}>
 			@foreach ($shops as $key => $value)
-				<option value="{{ $key }}" {{ ($edit && $user->hasRole(['admin', 'agent', 'distributor']) && in_array($key, $user->shops(true))) || (!$edit && Auth::user()->shop_id == $key) ? 'selected' : '' }}>
+				<option value="{{ $key }}" {{ ($edit && $user->hasRole(['admin', 'agent', 'distributor']) && in_array($key, $user->shops_array(true))) || (!$edit && Auth::user()->shop_id == $key) ? 'selected' : '' }}>
 					{{ $value }}
 				</option>
 			@endforeach

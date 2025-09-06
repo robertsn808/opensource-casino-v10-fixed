@@ -672,14 +672,14 @@ namespace VanguardLTE
                     'message' => trans('app.wrong_user')
                 ]);
             }
-            if( $this->hasRole('user') && $payeer->shop_id != $this->shop_id ) 
+            if( $this->hasRole('user') && $payeer && !$payeer->hasRole('admin') && $payeer->shop_id != $this->shop_id ) 
             {
                 return json_encode([
                     'status' => 'error', 
                     'message' => trans('app.wrong_user')
                 ]);
             }
-            if( $payeer->hasRole('admin') && !$this->hasRole('agent') ) 
+            if( $payeer->hasRole('admin') && $this->hasRole('admin') ) 
             {
                 return json_encode([
                     'status' => 'error', 
@@ -981,14 +981,14 @@ namespace VanguardLTE
                     'message' => trans('app.wrong_user')
                 ]);
             }
-            if( $this->hasRole('user') && $payeer->shop_id != $this->shop_id ) 
+            if( $this->hasRole('user') && $payeer && !$payeer->hasRole('admin') && $payeer->shop_id != $this->shop_id ) 
             {
                 return json_encode([
                     'status' => 'error', 
                     'message' => trans('app.wrong_user')
                 ]);
             }
-            if( $payeer->hasRole('admin') && !$this->hasRole('agent') ) 
+            if( $payeer->hasRole('admin') && $this->hasRole('admin') ) 
             {
                 return json_encode([
                     'status' => 'error', 

@@ -1,0 +1,38 @@
+{
+    "scenes": {
+        "main-scene":{"content": [
+            {"@P": "ui/bg.widget"},
+            {"@P": {"#ID": "ui/uacu.game-wrapper", "content": {"type": "vport", "@O": {
+                "landscape": {"layout": {"base": [1100, 720]}, "pos": [0, 0]},
+                "portrait": {"layout": {"base": [1100, 720]}, "pos": [0, -150]}
+            }, "content": [
+                {"id": "main_content", "type": "vport", "@O": {
+                    "landscape": {"size": [1009, 660], "pos": [45, 50], "layout": {"base": [1100, 720]}},
+                    "portrait": {"size": [1188, 777], "pos": [-44, 0], "layout": {"base": [1100, 720]}}
+                }, "content": [
+                    {"@P": "ui/main", "pos": [5, 68]},
+                    {"@P": "ui/reelset", "size": [985, 456], "pos": [59, 114]},
+                    {"@P": "ui/sb.left",  "size": [25, 489], "pos": [41,   102]},
+                    {"@P": "ui/sb.right", "size": [25, 489], "pos": [1035, 102]}
+                ]},
+                {"@P": "ui/respin.logo", "@O": {
+                    "landscape": {"size": [410, 111], "pos": [348, 47], "layout": {"base": [382, 104]}},
+                    "portrait": {"size": [410, 111], "pos": [348, 22], "layout": {"base": [382, 104]}}
+                }},
+                {"type": "anchor-ex", "layout": {"alignment": "center"}, "size": [1600, 878], "content": [
+                    {"id": "aw.big_win.shadow", "type": "panel", "background": "#90000000", "props": {"anchor-ex.absolute": true, "anchor.fit": "0"}, "opacity": 0}
+                ]},
+                {"@P": "ui/6oak.box"},
+                {"@P": "ui/dwb_win.container", "size": [1440, 790], "pos": [-180, 0]},
+                {"@P": "ui/snake.intro", "@O": {
+                    "landscape": {"size": [1600, 878], "pos": [-250, -18], "layout": {"base": [1600, 878]}},
+                    "portrait": {"size": [1600, 878], "pos": [-250, -48], "layout": {"base": [1600, 878]}}
+                }}
+            ]}}, "size-max": [-1, -1]},
+
+            {"@P": "ui/controls"},
+
+            {"id": "webView", "type": "webview", "visible": false, "props": {"anchor.fit": 0}}
+        ]}
+    }
+}

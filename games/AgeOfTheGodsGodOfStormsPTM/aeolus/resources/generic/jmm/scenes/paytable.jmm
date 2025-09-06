@@ -1,0 +1,15 @@
+{
+    "scenes": {
+        "paytable-scene": {"snap":false, "background": "#190C00", "content": [
+            {"@O": {"landscape": {"props": {"anchor.fit": 0}}, "portrait":  {"props": {"anchor.fit": "0 -70"}}},
+                    "@P": {"#ID": "ui/paytable", "panel": {"ratio": "auto"}, "container": {"content": [
+                 {"type": "image", "slice": "paytable_1"},
+                 {"type": "image", "slice": "paytable_2"},
+                 {"type": "image", "slice": "paytable_3"},
+                 {"type": "image", "slice": "paytable_4"},
+                 {"type": "image", "slice": "paytable_5"},
+                 {"type": "image", "slice": "paytable_6"}
+            ]}}}
+        ]}
+    }
+}

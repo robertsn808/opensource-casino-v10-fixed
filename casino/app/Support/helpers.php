@@ -13,11 +13,14 @@ if (! function_exists('settings')) {
      */
     function settings($key = null, $default = null)
     {
-        if (is_null($key)) {
-            return app('anlutro\LaravelSettings\SettingStore');
+        try {
+            if (is_null($key)) {
+                return app('anlutro\LaravelSettings\SettingStore');
+            }
+            return app('anlutro\LaravelSettings\SettingStore')->get($key, $default);
+        } catch (\Throwable $e) {
+            return $default;
         }
-
-        return app('anlutro\LaravelSettings\SettingStore')->get($key, $default);
     }
 }
 
@@ -38,4 +41,40 @@ function hpRandStr($digit = 4)
 {
     $random = Str::random($digit);
     return $random;
+}
+
+/**
+ * Check if a game is an external game (from games directory)
+ * External games are those with shop_id = 0 and have corresponding directory
+ */
+function isExternalGame($game)
+{
+    if (!$game) {
+        return false;
+    }
+    
+    // Check if it's a shop_id = 0 game (global games)
+    if ($game->shop_id != 0) {
+        return false;
+    }
+    
+    // Check if the games directory exists
+    $gamesPath = base_path('../games/' . $game->name);
+    return is_dir($gamesPath);
+}
+
+/**
+ * Get the appropriate game route based on whether it's external or internal
+ */
+function getGameRoute($game, $demo = false)
+{
+    if (isExternalGame($game)) {
+        return route('frontend.game.external', $game->name);
+    } else {
+        $route = route('frontend.game.go', $game->name);
+        if ($demo) {
+            $route .= '/prego';
+        }
+        return $route;
+    }
 }

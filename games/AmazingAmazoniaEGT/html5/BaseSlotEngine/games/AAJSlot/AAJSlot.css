@@ -1,0 +1,42 @@
+#Game.slot.AAJSlot .gameViewport { background: url('BaseSlotEngine/games/AAJSlot/images/background.jpg?v=1.5.0.r|23-07-2019|08:23:48') top center; }
+#Game.slot.AAJSlot .gameViewport.inFS { background: url('BaseSlotEngine/games/AAJSlot/images/backgroundInFS.jpg?v=1.5.0.r|23-07-2019|08:23:48') top center; }
+#Game.slot.AAJSlot .backgroundOverlay { background-image: url('BaseSlotEngine/games/AAJSlot/images/backgroundOverlay.png?v=1.5.0.r|23-07-2019|08:23:48');  }
+#Game.slot.AAJSlot .gameTitle { background-image: url('BaseSlotEngine/games/AAJSlot/images/gameTitle.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.AAJSlot .gameTitle.noJackpot { background-image: url('BaseSlotEngine/games/AAJSlot/images/gameTitleNoJackpot.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.AAJSlot .topGameTitle { background-image: url('BaseSlotEngine/games/AAJSlot/images/topGameTitle.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.AAJSlot .denomButton { background-image: url("BaseSlotEngine/games/AAJSlot/images/denominationButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .autoplayButton { background-image: url("BaseSlotEngine/games/AAJSlot/images/autoSoundButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .soundButton { background-image: url("BaseSlotEngine/games/AAJSlot/images/autoSoundButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .betButton { background-image: url("BaseSlotEngine/games/AAJSlot/images/betButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .icons{		background-image: url("BaseSlotEngine/games/AAJSlot/images/settingsInfo.png?v=1.5.0.r|23-07-2019|08:23:48");}
+#Game.slot.AAJSlot .iconsImage{	background-image: url("BaseSlotEngine/games/AAJSlot/images/settingsInfo.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .jackpotBoxes { background-image: url('BaseSlotEngine/games/AAJSlot/images/backgroundOverlay.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.AAJSlot .jackpotContentView
+{
+	border-color: #ef9b04;
+	background: -webkit-linear-gradient(black, #583c00);
+	background: -o-linear-gradient(black, #583c00);
+	background: -moz-linear-gradient(black, #583c00);
+	background: linear-gradient(black, #583c00);
+}
+#Game.slot.AAJSlot .bottomUIContainer { background-image: url('BaseSlotEngine/games/AAJSlot/images/backgroundOverlay.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.AAJSlot .gambleContainer { border-color: #ef9b04; }
+#Game.slot.AAJSlot .settingsView { background-image: url("BaseSlotEngine/games/AAJSlot/images/background.jpg?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .settingsPaytableCloseButton { background-image: url("BaseSlotEngine/games/AAJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .settingsPaytableCloseButtonArrow { background-image: url("BaseSlotEngine/games/AAJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .settingsPaytableCloseButtonArrowHighlight { background-image: url("BaseSlotEngine/games/AAJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .paytableFromSettingsButton { background-image: url("BaseSlotEngine/games/AAJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .settingsFromPaytableButton { background-image: url("BaseSlotEngine/games/AAJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.AAJSlot .textField.lines
+{
+	color: #ffffff;
+	text-shadow: 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030, 0px 0px 6px #303030;
+}
+#Game.slot.AAJSlot .textField.lines.active
+{
+	color: #ffff00;
+	text-shadow: 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000, 0px 0px 6px #bf0000;
+}
+#Game.slot.AAJSlot .gameNumberTime { color: #bcba1b; }
+#Game.slot.AAJSlot .textField.totals { color: #bcba1b; }
+#Game.slot.AAJSlot .textField.totals.jackpot { color: #bcba1b; }

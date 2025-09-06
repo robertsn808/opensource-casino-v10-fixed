@@ -75,33 +75,57 @@ app.controller('gameCtrl', function ($scope, $http, $log) {
             success: function(data) {
 				$('.modal-preloader', $modal).hide();
 				$form.find("input, select, textarea").val("");
-                
-                if (data.link) {
+                // Handle both JSON and full HTML responses gracefully
+                if (typeof data === 'object' && data !== null && data.link) {
                     location.replace(data.link);
-                } else if ($form.data('modal-success')) {
-                    $scope.openModal(e, $form.data('modal-success'));
-					$("#system-notification-success-text").html(data[0]);
                 } else {
+                    // For non-JSON (HTML) responses or any unexpected payloads, reload to reflect auth state
                     location.reload();
                 }
             },
             error: function (xhr) {
-                var errors = JSON.parse(xhr.responseText);
+                var message = 'Login failed. Please check your credentials.';
+                var payload = null;
+                try {
+                    payload = xhr.responseJSON || JSON.parse(xhr.responseText);
+                } catch (e) {
+                    payload = null;
+                }
 
-                $.each(errors, function (key, value) {
-                    var field =  $('input[name="'+ key +'"], textarea[name="'+ key +'"]', $form)
-                    if (field.length ) {
-                        field.addClass('is__invalid')
-                            .parent()
-                            .append('<div class="invalid__feedback">'+ value[0] +'</div>');
-                    } else {
-                        $('.modal__error', $form).show().text(value);
+                // Laravel validation style: {message: ..., errors: {field: [msg]}}
+                if (payload && payload.errors) {
+                    var agg = [];
+                    $.each(payload.errors, function (key, value) {
+                        var field = $('input[name="'+ key +'"], textarea[name="'+ key +'"]', $form);
+                        var first = Array.isArray(value) ? value[0] : (typeof value === 'string' ? value : 'Invalid value');
+                        if (field.length) {
+                            field.addClass('is__invalid')
+                                .parent()
+                                .append('<div class="invalid__feedback">'+ first +'</div>');
+                        } else {
+                            agg.push(first);
+                        }
+                    });
+                    if (agg.length) {
+                        $('.modal__error', $form).show().html(agg.join('<br/>'));
                     }
-                });
+                } else if (payload) {
+                    // Array of messages or plain string
+                    if (Array.isArray(payload)) {
+                        $('.modal__error', $form).show().html(payload.join('<br/>'));
+                    } else if (typeof payload === 'string') {
+                        $('.modal__error', $form).show().text(payload);
+                    } else if (payload.message) {
+                        $('.modal__error', $form).show().text(payload.message);
+                    } else {
+                        $('.modal__error', $form).show().text(message);
+                    }
+                } else {
+                    $('.modal__error', $form).show().text(message);
+                }
 
                 $('.modal-preloader', $modal).hide();
             },
         });
     };
 });
-

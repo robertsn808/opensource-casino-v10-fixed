@@ -1,0 +1,63 @@
+{
+    "ui": {
+        "sb": {"type": "side-button", "cursor": "hand", "group": "sideButtons", "size": [25, 18], "content": [
+            {"id": "win", "type": "stack", "content": [
+                {"#ID": "line_number", "id": "line_number", "type": "cbutton"}
+            ]}
+        ]},
+        "sb.left": {"type": "vport", "layout": {"base": [25, 489]}, "snap": true, "content": [
+            {"line": 3,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_3"}}},
+            {"line": 7,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_7"}}, "pos": [0, 19]},
+            {"line": 19, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_19"}}, "pos": [0, 38]},
+            {"line": 29, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_29"}}, "pos": [0, 57]},
+            {"line": 33, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_33"}}, "pos": [0, 76]},
+            {"line": 35, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_35"}}, "pos": [0, 95]},
+            {"line": 1,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_1"}}, "pos": [0, 114]},
+            {"line": 11, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_11"}}, "pos": [0, 133]},
+            {"line": 18, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_18"}}, "pos": [0, 152]},
+            {"line": 24, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_24"}}, "pos": [0, 171]},
+            {"line": 32, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_32"}}, "pos": [0, 190]},
+            {"line": 40, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_40"}}, "pos": [0, 209]},
+            {"line": 42, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_42"}}, "pos": [0, 228]},
+            {"line": 2,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_2"}}, "pos": [0, 247]},
+            {"line": 14, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_14"}}, "pos": [0, 266]},
+            {"line": 22, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_22"}}, "pos": [0, 285]},
+            {"line": 27, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_27"}}, "pos": [0, 304]},
+            {"line": 37, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_37"}}, "pos": [0, 323]},
+            {"line": 44, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_44"}}, "pos": [0, 342]},
+            {"line": 4,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_4"}}, "pos": [0, 361]},
+            {"line": 9,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_9"}}, "pos": [0, 380]},
+            {"line": 20, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_20"}}, "pos": [0, 399]},
+            {"line": 30, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_30"}}, "pos": [0, 418]},
+            {"line": 38, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_38"}}, "pos": [0, 437]},
+            {"line": 45, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_45"}}, "pos": [0, 456]}
+        ]},
+        "sb.right": {"type": "vport", "layout": {"base": [25, 489]}, "snap": true, "content": [
+            {"line": 6,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_6"}}},
+            {"line": 16, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_16"}}, "pos": [0, 19]},
+            {"line": 28, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_28"}}, "pos": [0, 38]},
+            {"line": 34, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_34"}}, "pos": [0, 57]},
+            {"line": 47, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_47"}}, "pos": [0, 76]},
+            {"line": 50, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_50"}}, "pos": [0, 95]},
+            {"line": 8,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_8"}}, "pos": [0, 114]},
+            {"line": 12, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_12"}}, "pos": [0, 133]},
+            {"line": 21, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_21"}}, "pos": [0, 152]},
+            {"line": 23, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_23"}}, "pos": [0, 171]},
+            {"line": 36, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_36"}}, "pos": [0, 190]},
+            {"line": 43, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_43"}}, "pos": [0, 209]},
+            {"line": 46, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_46"}}, "pos": [0, 228]},
+            {"line": 10, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_10"}}, "pos": [0, 247]},
+            {"line": 13, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_13"}}, "pos": [0, 266]},
+            {"line": 17, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_17"}}, "pos": [0, 285]},
+            {"line": 26, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_26"}}, "pos": [0, 304]},
+            {"line": 39, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_39"}}, "pos": [0, 323]},
+            {"line": 41, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_41"}}, "pos": [0, 342]},
+            {"line": 5,  "@P": {"#ID": "ui/sb", "line_number": {"slice":  "sb_5"}}, "pos": [0, 361]},
+            {"line": 15, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_15"}}, "pos": [0, 380]},
+            {"line": 25, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_25"}}, "pos": [0, 399]},
+            {"line": 31, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_31"}}, "pos": [0, 418]},
+            {"line": 48, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_48"}}, "pos": [0, 437]},
+            {"line": 49, "@P": {"#ID": "ui/sb", "line_number": {"slice": "sb_49"}}, "pos": [0, 456]}
+        ]}
+    }
+}

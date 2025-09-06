@@ -5,12 +5,9 @@
     <title>Admin | Panel</title>
     <meta name="description" content="Admin || GGinc || BackOffice">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="https://netbo.gapi.lol/css/v1/login/animate.css" type="text/css">
-    <link rel="stylesheet" href="https://netbo.gapi.lol/css/v1/login/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="https://netbo.gapi.lol/css/v1/login/simple-line-icons.css" type="text/css">
-    <link rel="stylesheet" href="https://netbo.gapi.lol/css/v1/login/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="https://netbo.gapi.lol/css/v1/login/font.css" type="text/css">
-    <link rel="stylesheet" href="https://netbo.gapi.lol/css/v1/login/app.css" type="text/css">
+    <link rel="stylesheet" href="/back/dist/css/AdminLTE.min.css" type="text/css">
+    <link rel="stylesheet" href="/back/dist/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="/back/dist/css/additional.css" type="text/css">
 </head>
 
 <body>

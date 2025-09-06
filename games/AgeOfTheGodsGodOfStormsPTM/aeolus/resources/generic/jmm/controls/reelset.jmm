@@ -1,0 +1,55 @@
+{
+    "ui": {
+        "sprite.places": {"@P": "ui/anchor.relative", "group": "spritePlace", "size": [151, 455], "snap": false, "content": [
+            {"type": "stack", "props": {"anchor.fit": "0 0 66.666 0"}},
+            {"type": "stack", "props": {"anchor.fit": "33.333 0 33.333 0"}},
+            {"type": "stack", "props": {"anchor.fit": "66.666 0 0 0"}}
+        ]},
+
+        "reel": {"type": "reel", "group": "reels", "#ID": "reel_id", "size": [151, 455]},
+    
+        "ship": {"type": "vport", "group": "shipContainers", "layout": {"base": [152, 455]}, "size": [152, 455], "clipped": true, "content": [
+            {"@P": "ui/ship.sprite", "group": "ships", "size": [151, 536], "pos": [0, -40.5], "visible": false}
+        ]},
+
+        "sprite_container": {"type": "vport", "layout": {"base": [810, 455]}, "size": [810, 455], "pos": [-18, 0], "snap": false, "clipped": true},
+
+        "reelset": {"type": "vport", "layout": {"base": [774, 447]}, "size": [774, 447], "background": "reels_frame", "snap": false, "content": [
+            {"@P": {"#ID": "ui/reel", "reel_id": {"reel_id": 1}}},
+            {"@P": {"#ID": "ui/reel", "reel_id": {"reel_id": 2}}, "pos": [156, 0]},
+            {"@P": {"#ID": "ui/reel", "reel_id": {"reel_id": 3}}, "pos": [312, 0]},
+            {"@P": {"#ID": "ui/reel", "reel_id": {"reel_id": 4}}, "pos": [469, 0]},
+            {"@P": {"#ID": "ui/reel", "reel_id": {"reel_id": 5}}, "pos": [625, 0]},
+
+            {"@P": "ui/sprite_container", "content": [
+                {"@P": "ui/sprite.places", "pos": [18, 0]},
+                {"@P": "ui/sprite.places", "pos": [174, 0]},
+                {"@P": "ui/sprite.places", "pos": [330, 0]},
+                {"@P": "ui/sprite.places", "pos": [487, 0]},
+                {"@P": "ui/sprite.places", "pos": [643, 0]}
+            ]},
+    
+            {"type": "vport", "layout": {"base": [774, 455]}, "size": [774, 455], "clipped": true, "content": [
+                {"@P": "ui/ship"},
+                {"@P": "ui/ship", "pos": [156, 0]},
+                {"@P": "ui/ship", "pos": [312, 0]},
+                {"@P": "ui/ship", "pos": [469, 0]}
+            ]},
+
+            {"@P": "ui/sprite_container", "content": [
+                {"@P": "ui/sprite.places", "group": "frontSpritePlace", "pos": [18, 0]},
+                {"@P": "ui/sprite.places", "group": "frontSpritePlace", "pos": [174, 0]},
+                {"@P": "ui/sprite.places", "group": "frontSpritePlace", "pos": [330, 0]},
+                {"@P": "ui/sprite.places", "group": "frontSpritePlace", "pos": [487, 0]},
+                {"@P": "ui/sprite.places", "group": "frontSpritePlace", "pos": [643, 0]}
+            ]},
+
+            {"@P": "ui/sb.left",  "size": [20, 455], "pos": [-23, 0]},
+            {"@P": "ui/sb.right", "size": [20, 455], "pos": [779, 0]},
+
+            {"id": "winlines", "type": "winlines", "size": [774, 447]},
+
+            {"@P": "ui/total_win.label", "size": [774, 209], "pos": [0, 131]}
+        ]}
+    }
+}

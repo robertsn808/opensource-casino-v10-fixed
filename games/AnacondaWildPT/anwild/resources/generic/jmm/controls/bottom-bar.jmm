@@ -1,0 +1,107 @@
+{
+    "ui": {
+        "bb.button": {"type": "mbutton", "cursor": "hand", "format": "bb.buttons"},
+
+        "bottom-bar": {"id": "bottom_bar", "type": "bottom-bar", "layout": {"type": "vport", "base": [1100, 120]}, "content": [
+            {"id": "info.container", "type": "vport", "layout": {"base": [118, 102]}, "size": [118, 102], "pos": [10, 12], "content": [
+                {"id": "info.btn", "@P": "ui/bb.button", "slice": "bb.button", "text": "info", "size": [118, 102], "label": {"props": {"anchor.fit": "27 5 33 5"}}}
+            ]},
+
+            {"id": "total.bet.container", "type": "vport", "layout": {"base": [152, 88]}, "size": [152, 88], "pos": [125, 18], "content": [
+                {"type": "image", "slice": "total.bet.bg", "size": [152, 88]},
+                {"id": "lines.title", "@P": "ui/label.def", "format": "bb.text", "text-group": "bb.title", "size": [142, 15], "pos": [5, 4], "text": "lines"},
+                {"id": "lines.value", "@P": "ui/label.def", "format": "bb.value", "text": "50", "size": [142, 57], "pos": [5, 26]}
+            ]},
+
+            {"id": "coin_size.container", "type": "vport", "layout": {"base": [124, 120]}, "size": [124, 120], "pos": [280, 0], "content": [
+                {"type": "image", "slice": "line.bet.bg", "size": [121, 50], "pos": [2, 18]},
+                {"id": "coin_size.title", "comment": "not used in UI", "visible": false, "@P": "ui/label.def", "format": "bb.text", "text-group": "bb.title", "size": [112, 15], "pos": [7, 23], "text": "total_bet"},
+                {"id": "coin_size.value", "comment": "not used in UI", "visible": false, "@P": "ui/label.def", "format": "bb.value", "size": [112, 25], "pos": [7, 39]},
+
+                {"id": "total_bet.title", "@P": "ui/label.def", "format": "bb.text", "text-group": "bb.title", "size": [110, 15], "pos": [7, 23], "text": "total_bet"},
+                {"id": "total_bet.value", "@P": "ui/label.def", "format": "bb.value", "size": [110, 25], "pos": [7, 39]},
+
+                {"id": "coin_size.minus", "@P": "ui/bb.button", "slice": "bb.minus", "size": [64, 41], "pos": [-1, 68]},
+                {"id": "coin_size.plus",  "@P": "ui/bb.button", "slice":  "bb.plus", "size": [64, 41], "pos": [60, 68]}
+            ]},
+
+            {"id": "auto_play.container", "type": "multistate", "state": "regular", "layout": {"type": "vport", "base": [129, 101]}, "size": [129, 101], "pos": [688, 14], "content": {
+                "regular": {"id": "auto_play.btn", "type": "autoplay-selector", "layout": {"type": "anchor", "relative": true}, "size": [129, 101], "values": [99, 50, 25, 10, -1],
+                    "list": {"layout": {"base": [100, 0]}, "props": {"anchor.alignment": "bottom-center", "anchor.fit": "null 5 98 5"}, "bias": "hor"},
+                    "item": {"id": "title", "ratio": [118, 41], "margin": "0 0 0 0", "@P": "ui/bb.button",
+                        "slice": "bb.aspin", "label": {"props": {"anchor.fit": "25 5 25 5"}}
+                    },
+                    "item.until-feature": {"id": "title", "ratio": [118, 41], "margin": "0 0 0 0", "@P": "ui/bb.button",
+                        "slice": "bb.aspin", "label": {"props": {"anchor.fit": "20 5 15 5"}}
+                    }, "content": [
+                        {"id": "hit-mask", "@P": "ui/bb.button", "slice": "bb.turbo", "text": "autoplay", "label": {"props": {"anchor.fit": "20 5 27 5"}},
+                            "props": {"anchor.fit": 0}, "propagative": true}
+                    ]
+                },
+                "autoplay": {"type": "vport", "layout": {"base": [129, 101]}, "size": [129, 101], "pos": [2, 0], "content": [
+                    {"type": "image", "slice": "coin.value.bg", "size": [119, 43], "pos": [5, 7]},
+                    {"id": "autoplay.spins_left", "@P": "ui/label.def", "size": [107, 30], "pos": [11, 13], "text-group": "bb.title", "format": "bb.text"},
+                    {"id": "auto_play_stop.btn", "@P": "ui/bb.button", "slice": "bb.aspin", "text": "stop", "label": {"props": {"anchor.fit": "20 5 20 5"}}, "propagative": true, "size": [118, 41], "pos": [5, 52]}
+                ]}
+            }},
+
+            {"id": "turbo.container", "type": "vport", "layout": {"base": [129, 101]}, "size": [129, 101], "pos": [812, 14], "content": [
+                {"id": "turbo", "type": "toggle-panel", "layout": {"type": "vport", "base": [129, 101]}, "size": [129, 101], "state": "off", "content": {
+                    "on": {"id": "on", "@P": "ui/bb.button", "slice": "bb.turbo", "size": [129, 101], "text": "turbo.on", "label": {"props": {"anchor.fit": "20 5 27 5"}}, "format": "bb.turbo.on", "propagative": true},
+                    "off": {"id": "off", "@P": "ui/bb.button", "slice": "bb.turbo", "size": [129, 101], "text": "turbo", "label": {"props": {"anchor.fit": "20 5 27 5"}}, "propagative": true}
+                }}
+            ]},
+
+            {"id": "buttons.container", "type": "aw-desktop-round-buttons", "layout": {"type": "stack"}, "size": [148, 102], "pos": [936, 14], "content": [
+                {"id": "spin",  "@P": "ui/bb.button", "slice": "bb.spin", "shortcut": "space", "text": "spin",     "label": {"props": {"anchor.fit": "25 5 33 5"}}},
+                {"id": "start", "@P": "ui/bb.button", "slice": "bb.spin", "shortcut": "space", "text": "bb.start", "label": {"props": {"anchor.fit": "25 5 33 5"}}},
+                {"id": "stop",  "@P": "ui/bb.button", "slice": "bb.spin", "shortcut": "space", "text": "stop",     "label": {"props": {"anchor.fit": "25 5 33 5"}}},
+                {"id": "skip",  "@P": "ui/bb.button", "slice": "bb.spin", "shortcut": "space", "text": "skip",     "label": {"props": {"anchor.fit": "25 5 33 5"}}}
+            ]},
+
+            {"id": "win.container", "type": "vport", "layout": {"base": [280, 88]}, "size": [280, 88], "pos": [410, 18], "content": [
+                {"id": "win_panel", "type": "desktop-win-panel", "layout": {"type": "vport", "base": [280, 88]}, "size": [280, 88], "content": [
+                    {"id": "small", "type": "vport", "layout": {"base": [280, 88]}, "size": [280, 88], "content": [
+                        {"type": "image", "slice": "win.bg", "size": [280, 88]},
+                        {"id": "win.title", "@P": "ui/label.def", "format": "bb.text", "text-group": "bb.title", "text": "win", "size": [270, 15], "pos": [5, 5]},
+                        {"id": "win.value", "@P": "ui/label.def", "format": "bb.value", "size": [270, 57], "pos": [5, 26]},
+
+                        {"id": "big_win.shadow", "type": "panel", "background": "#90000000", "pos": [-750, -750], "size": [1700, 1000], "visible": false, "opacity": 0, "propagative": false},
+
+                        {"@P": "ui/dwb_win.container", "size": [1472, 814], "pos": [-593, -640]},
+                        {"id": "_tickup", "type": "vport", "layout": {"base": [444, 118]}, "pos": [-137, -284], "size": [560, 174], "content": [
+                            {"id": "win.tickup", "@P": "ui/label.def", "type": "win-label", "format": "dwb.format", "size": [490, 95], "pos": [-21, 9], "visible": false}
+                        ]},
+                        {"id": "win.flare", "type": "image", "slice": "dwb.flare", "size": [404, 120], "pos": [-61, -8], "visible": false}
+                    ]}
+                ]}
+            ]}
+        ], "configs": {
+            "no_turbo_mode": {"content": [
+                {"id": "buttons.container", "size": [260, 90], "pos": [814, 14], "content": [
+                    {"id": "spin",  "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "start", "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "stop",  "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "skip",  "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}}
+                ]}
+            ]},
+            "no_autoplay": {"content": [
+                {"id": "turbo.container", "pos": [688, 14]},
+                {"id": "buttons.container", "size": [260, 90], "pos": [814, 14], "content": [
+                    {"id": "spin",  "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "start", "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "stop",  "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "skip",  "slice": "bb.click_to_start", "label": {"props": {"anchor.fit": "27 5 27 5"}}}
+                ]}
+            ]},
+            "no_turbo_mode_and_autoplay": {"content": [
+                {"id": "buttons.container", "size": [384, 90], "pos": [694, 14], "content": [
+                    {"id": "spin",  "slice": "bb.spin.only", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "start", "slice": "bb.spin.only", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "stop",  "slice": "bb.spin.only", "label": {"props": {"anchor.fit": "27 5 27 5"}}},
+                    {"id": "skip",  "slice": "bb.spin.only", "label": {"props": {"anchor.fit": "27 5 27 5"}}}
+                ]}
+            ]}
+        }}
+    }
+}

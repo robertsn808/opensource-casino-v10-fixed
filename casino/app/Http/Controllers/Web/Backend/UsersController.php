@@ -433,7 +433,8 @@ namespace VanguardLTE\Http\Controllers\Web\Backend
                 'type' => 'user'
             ])->orderBy('created_at', 'DESC')->paginate(30)->withQueryString();
             $users = auth()->user()->availableUsers();
-            if( count($users) && !in_array($user->id, $users) ) 
+            $userIds = is_array($users) ? $users : $users->pluck('id')->toArray();
+            if( count($userIds) && !in_array($user->id, $userIds) ) 
             {
                 abort(404);
             }
@@ -517,7 +518,8 @@ namespace VanguardLTE\Http\Controllers\Web\Backend
         {
             $users = auth()->user()->availableUsers();
             $google2fa = app('pragmarx.google2fa');
-            if( count($users) && !in_array($user->id, $users) ) 
+            $userIds = is_array($users) ? $users : $users->pluck('id')->toArray();
+            if( count($userIds) && !in_array($user->id, $userIds) ) 
             {
                 abort(404);
             }

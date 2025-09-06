@@ -1,0 +1,45 @@
+{
+    "resources": {
+        "animations": {
+            "splash.continue.blink": {"type": "set", "repeat": -1, "content": [
+                {"type": "set-config", "config": {"format": "splash_screen.continue"}},
+                {"type": "delay", "duration": 500},
+                {"type": "set-config", "config": {"format": "splash_screen.continue.black"}},
+                {"type": "delay", "duration": 500}
+            ]}
+        }
+    },
+    "ui": {
+        "splash-screen": {"type": "splash-screen", "layout": {"type": "vport", "base": [1100, 720]}, "ratio": [1100, 720], "content": [
+            {"type": "image", "slice": "paytable_background", "size": [1600, 878], "pos": [-250, -79]},
+            {"type": "image", "slice": "splash_background", "size": [720, 496.36], "pos": [180, 40]},
+            {"id": "btn.close", "type": "mbutton", "slice": "splash_continue", "animation": "splash.continue.blink", "sounds": {"click": "continue_button"}, "size": [216, 76], "pos": [438, 560], "cursor": "hand", "shortcut": "space"},
+
+            {"type": "vport", "layout": {"base": [30, 29]}, "size": [35,33.83], "pos": [415, 648], "content": [
+                {"type": "image", "slice": "splash_checkbox", "size": [22,22], "pos": [0, 11]},
+                {"id": "show_again.toggle", "type": "toggle-panel", "layout": {"type": "vport", "base": [30, 29]}, "cursor": "hand", "state": "off", "size": [30, 29], "content": {
+                    "on": {"type": "mbutton", "pos": [0, 0], "slice": "splash_checkmark", "layout": {"type": "vport", "base": [30, 29]}, "size": [30, 29], "propagative": true,
+                        "sounds": {"click": "generic_button"},
+                        "format": "splash_screen.dont_show_next_time", "text": "splash_screen.dont_show_next_time",
+                        "label": {"alignment": "top-left", "size": [180, 29], "pos": [32, 14]}},
+                    "off": {"type": "mbutton", "pos": [0, 0], "slice": "", "layout": {"type": "vport", "base": [30, 29]}, "size": [30, 29], "propagative": true,
+                        "sounds": {"click": "generic_button"},
+                        "format": "splash_screen.dont_show_next_time", "text": "splash_screen.dont_show_next_time",
+                        "label": {"alignment": "top-left", "size": [180, 29], "pos": [32, 14]}}
+                }}
+            ]}
+
+        ]}
+    },
+    "scenes": {
+        "loading-scene": {"layout": {"type": "stack"}, "content": [
+            {"type": "vport", "base": [1600, 878], "size": [1600, 878], "content": [
+                {"type": "image", "slice": "loading_background"},
+                {"id": "loading.title", "@P": "ui/label.def", "pos": [714, 830], "size": [172, 20], "format": "bb.value", "text": "loading_title"},
+                {"type": "stack", "background": "loading_bar_bg", "pos": [707, 850], "size": [185, 14]},
+                {"id": "progress", "type": "progress-bar", "pos": [709, 850], "size": [178, 14], "layout": {"type": "anchor", "relative": true, "alignment": "center"},
+                    "indicator": {"type": "panel", "background": "loading_indicator", "ratio": [55, 105], "bias": "ver", "props": {"anchor.fit": 0}}, "slice": "loading_progress"}
+            ]}
+        ]}
+    }
+}

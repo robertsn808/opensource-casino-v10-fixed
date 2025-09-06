@@ -163,7 +163,11 @@
                                                     <div class="main-slider__btn-wrp ng-isolate-scope">
                                                         <!-- ngIf: !$root.data.user.email -->
 														
-                                                        <button class="button button-secondary"> @lang('app.play_now') </button>
+                                                        @if(auth()->check())
+                                                            <a href="{{ route('frontend.game.list.category', 'all') }}" class="button button-secondary">@lang('app.play_now')</a>
+                                                        @else
+                                                            <a href="javascript:;" class="button button-secondary" onclick="document.querySelector('[data-name=modal-register]').click()">@lang('app.play_now')</a>
+                                                        @endif
                                                         <!-- end ngIf: !$root.data.user.email -->
                                                         <!-- ngIf: $root.data.user.email -->
                                                     </div>
@@ -180,7 +184,11 @@
                                                     <div class="main-slider__btn-wrp ng-isolate-scope">
                                                         <!-- ngIf: !$root.data.user.email -->
 														
-                                                        <button class="button button-secondary"> @lang('app.play_now') </button>
+                                                        @if(auth()->check())
+                                                            <a href="{{ route('frontend.game.list.category', 'all') }}" class="button button-secondary">@lang('app.play_now')</a>
+                                                        @else
+                                                            <a href="javascript:;" class="button button-secondary" onclick="document.querySelector('[data-name=modal-register]').click()">@lang('app.play_now')</a>
+                                                        @endif
                                                         <!-- end ngIf: !$root.data.user.email -->
                                                         <!-- ngIf: $root.data.user.email -->
                                                     </div>
@@ -196,7 +204,11 @@
                                                     <div class="main-slider__btn-wrp ng-isolate-scope">
                                                         <!-- ngIf: !$root.data.user.email -->
 														
-                                                        <button class="button button-secondary"> @lang('app.play_now') </button>
+                                                        @if(auth()->check())
+                                                            <a href="{{ route('frontend.game.list.category', 'all') }}" class="button button-secondary">@lang('app.play_now')</a>
+                                                        @else
+                                                            <a href="javascript:;" class="button button-secondary" onclick="document.querySelector('[data-name=modal-register]').click()">@lang('app.play_now')</a>
+                                                        @endif
                                                         <!-- end ngIf: !$root.data.user.email -->
                                                         <!-- ngIf: $root.data.user.email -->
                                                     </div>
@@ -213,7 +225,11 @@
                                                     <div class="main-slider__btn-wrp ng-isolate-scope">
                                                         <!-- ngIf: !$root.data.user.email -->
 														
-                                                        <button class="button button-secondary"> @lang('app.play_now') </button>
+                                                        @if(auth()->check())
+                                                            <a href="{{ route('frontend.game.list.category', 'all') }}" class="button button-secondary">@lang('app.play_now')</a>
+                                                        @else
+                                                            <a href="javascript:;" class="button button-secondary" onclick="document.querySelector('[data-name=modal-register]').click()">@lang('app.play_now')</a>
+                                                        @endif
                                                         <!-- end ngIf: !$root.data.user.email -->
                                                         <!-- ngIf: $root.data.user.email -->
                                                     </div>
@@ -230,7 +246,11 @@
                                                     <div class="main-slider__btn-wrp ng-isolate-scope">
                                                         <!-- ngIf: !$root.data.user.email -->
 														
-                                                        <button class="button button-secondary"> @lang('app.play_now') </button>
+                                                        @if(auth()->check())
+                                                            <a href="{{ route('frontend.game.list.category', 'all') }}" class="button button-secondary">@lang('app.play_now')</a>
+                                                        @else
+                                                            <a href="javascript:;" class="button button-secondary" onclick="document.querySelector('[data-name=modal-register]').click()">@lang('app.play_now')</a>
+                                                        @endif
                                                         <!-- end ngIf: !$root.data.user.email -->
                                                         <!-- ngIf: $root.data.user.email -->
                                                     </div>
@@ -319,14 +339,18 @@
                                     <div class="game-item__label-live ng-scope"> <span class="game-item__label-live-txt">Active</span> </div>
                                     <div class="game-item__overlay ng-scope">
                                         <div class="game-item__actions">
-                                           @if(isset(auth()->user()->username) && auth()->user()->balance > 0)
-                                                <a href="{{ route('frontend.game.go', $game->name) }}?api_exit=/" class="button button-primary ng-scope ng-binding">@lang('app.play_now')</a>
-                                            @elseif(isset(auth()->user()->username) && auth()->user()->balance == 0)
-                                                  <a href="" class="button button-primary ng-scope ng-binding">Deposit Funds</a>  
+                                           @if(isset(auth()->user()->username))
+                                                @if(auth()->user()->balance > 0)
+                                                    <a href="{{ route('frontend.game.go', $game->name) }}" class="button button-primary ng-scope ng-binding">@lang('app.play_now')</a>
+                                                @else
+                                                    <a href="javascript:;" class="button button-primary ng-scope ng-binding" onclick="document.querySelector('[ng-click*=my-account]').click()">Deposit Funds</a>  
+                                                @endif
+                                                <br>
+                                                <a href="{{ route('frontend.game.go', $game->name) }}/prego" class="button button-primary ng-scope ng-binding">Demo</a>
                                             @else
-                                                <a href="{{ route('frontend.game.go', $game->name) }}/prego?api_exit=/" class="button button-primary ng-scope ng-binding">Demo</a>
+                                                <a href="{{ route('frontend.game.go', $game->name) }}/prego" class="button button-primary ng-scope ng-binding">Demo</a>
 											<br>
-                                                <a href="javascript:;" class="button button-primary ng-scope ng-binding" ng-click="openModal($event, '#login-modal')">@lang('app.login')</a>
+                                                <a href="javascript:;" class="button button-primary ng-scope ng-binding" onclick="document.querySelector('[data-name=modal-register]').click()">@lang('app.login')</a>
                                             @endif
                                             <!-- <button class="button button-primary ng-scope ng-binding">@lang('play_now')</button> -->
                                         </div>

@@ -1,0 +1,17 @@
+{
+    "resources": {
+        "images": {
+            "font.dwb": {"url": "../fonts/font.png", "preload": "main-scene"}
+        },
+        "fonts": {
+            "font.dwb": {
+                "type": "user",
+                "url": "font.fnt"
+            }
+        },
+        "formats": {
+            "line_win": {"font": "Arial", "style": "bold", "color": "#ffffff"},
+            "dwb.format": {"font": "font.dwb"}
+        }
+    }
+}

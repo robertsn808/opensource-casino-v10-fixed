@@ -1,0 +1,40 @@
+{
+    "modules": {
+        "default": {
+            "window":{
+                "pos": "center",
+                "size": [1136, 640]
+            },
+            "jmms": [
+                "slot/common/media.jmm",
+                "slot/common/controls.jmm",
+                "slot/common/debug_config.jmm",
+                "slot/common/sparta.jmm",
+                "ageofgods/ageofgods.jmm",
+                "config/config.jmm",
+                "config/sequences.jmm",
+                "formats.jmm",
+                "images/images.jmm",
+                "media.jmm",
+                "animations.jmm",
+                "sprites.jmm",
+                "scenes/main.jmm",
+                "scenes/paytable.jmm",
+                "controls/reelset.jmm",
+                "controls/side-buttons.jmm"
+            ],
+            "localizedBrandedJmms": [
+                "../../translations/jmm/slot/common/texts/texts_en.jmm",
+                "../../translations/jmm/config/config_en.jmm",
+                "../../translations/jmm/texts/texts_en.jmm",
+                "../../translations/jmm/ageofgods/texts/texts_en.jmm"
+            ],
+            "tablet": [
+                "slot/common/controls_tablet.jmm"
+            ],
+            "branding": [
+                "slot/common/branding/brand.jmm"
+            ]
+        }
+    }
+}

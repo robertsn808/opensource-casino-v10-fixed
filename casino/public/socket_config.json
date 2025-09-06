@@ -1,0 +1,8 @@
+{
+  "host_ws": "localhost",
+  "port": 8080,
+  "prefix_ws": "ws://",
+  "game_url_base": "/games/",
+  "session_timeout": 1800,
+  "api_version": "v1"
+}

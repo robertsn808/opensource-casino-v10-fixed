@@ -1,0 +1,39 @@
+{
+    "resources": {
+        "images": {
+            "font.dwb": {"url": "../fonts/font.png", "preload": "main-scene"}
+        },
+        "fonts": {
+            "FranklinGothic": "FranklinGothicStd-Condensed.otf",
+            "font.dwb": {
+                "type": "user",
+                "url": "font.fnt"
+            }
+        },
+        "formats": {
+            "bb.buttons":          {"font": "FranklinGothic", "color": "#f7f09e"},
+            "bb.buttons:pressed":  {"font": "FranklinGothic", "color": "#f5ee9d"},
+            "bb.buttons:hovered":  {"font": "FranklinGothic", "color": "#e6e59c"},
+            "bb.buttons:disabled": {"font": "FranklinGothic", "color": "#7b784f"},
+
+            "bb.turbo.on":          {"font": "FranklinGothic", "color": "#2bd046"},
+            "bb.turbo.on:pressed":  {"font": "FranklinGothic", "color": "#2bd046"},
+            "bb.turbo.on:hovered":  {"font": "FranklinGothic", "color": "#3fde4d"},
+            "bb.turbo.on:disabled": {"font": "FranklinGothic", "color": "#156823"},
+
+            "bb.text":  {"font": "Arial", "color": "#f7f09e", "size": 15},
+            "bb.value": {"font": "Arial", "style": "bold", "color": "#e9e9e9"},
+
+            "line_win": {"font": "Arial", "style": "bold", "color": "#ffffff"},
+            "info.text": {"font": "Arial", "color": "#ffffff"},
+
+            "dwb.format": {"font": "font.dwb"},
+            "paytable.pager": {"font": "Arial", "style": "bold", "color": "#F7F09E"},
+            "paytable.winnings.yellow": {"font": "FranklinGothic", "color": "#F7F09E",  "shadow": {"color": "#000", "offset": [0,4]}},
+            "paytable.winnings.off":    {"font": "FranklinGothic", "color": "#2ABCCE",  "shadow": {"color": "#000", "offset": [0,4]}},
+            "paytable.winnings.on":     {"font": "FranklinGothic", "color": "#d5feff",  "shadow": {"color": "#000", "offset": [0,4]}},
+
+            "splash_screen.dont_show_next_time": {"font": "FranklinGothic", "color": "#F7F09E", "stroke": {"color": "#028393", "thickness": 1}, "size": 40}
+        }
+    }
+}

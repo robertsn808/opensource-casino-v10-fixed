@@ -1,0 +1,18 @@
+{
+    "resources": {
+        "texts": {
+            "line_bet": "LINE BET",
+            "turbo": "TURBO\nMODE",
+            "turbo.on": "TURBO\nON",
+            "auto_spins_until_feature": "UNTIL\nFEATURE",
+            "auto_spins_left": "AUTO SPINS\n{0}",
+
+            "loading_title": "LOADING",
+            "loading_complete": "COMPLETE",
+
+            "splash_screen.dont_show_next_time": "DON'T SHOW NEXT TIME",
+            "skip": "SKIP"
+        }
+    }
+
+}

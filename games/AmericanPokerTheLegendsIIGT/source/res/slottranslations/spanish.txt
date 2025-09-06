@@ -1,0 +1,61 @@
+﻿#include source/res/slottranslations/spanish.txt
+#include generic.txt
+
+alttext_deal1 = Repartir
+alttext_deal2 = Cambiar
+alttext_gamblechooseblack = Negro
+alttext_gamblechoosered = Rojo
+alttext_gambletake = Cobrar
+alttext_holdall = Conservar todas
+alttext_holdnone = No conservar nada
+alttext_infoclose = Cerrar
+alttext_infoopen = Reglas
+alttext_take2 = Cobrar
+console_label_credit_plurius = Credit
+console_label_lastwin = Último premio ganado
+console_lastwin_na = No está disponible en esta situación.
+menu = Menu
+msg_bet_title = Apuesta
+msg_deposits_title = Saldo
+msg_handname_0 = MINIBONUS (Jota o más)
+msg_handname_0b = MINIBONUS
+msg_handname_1 = DOBLES PAREJAS
+msg_handname_2 = TRÍO
+msg_handname_3 = ESCALERA
+msg_handname_4 = COLOR
+msg_handname_5 = FULL
+msg_handname_6 = PÓQUER
+msg_handname_7 = ESCALERA DE COLOR
+msg_handname_8 = ESCALERA REAL
+msg_handname_9 = REPÓQUER
+msg_hold = Conservar
+msg_lobbypayout = Pagado:%0a#0
+msg_pay = Paga
+msg_risk_current_title = IMPORTE DE RIESGO
+msg_risk_next_title = IMPORTE DE PREMIO
+msg_status_dbrequest_luck = ¡Mucha suerte!
+msg_status_gamble_main = Premio #0. Rojo/negro para riesgo o cobrar.
+msg_status_gamble_top = Has ganado #0
+msg_status_gamble_win = Premio: #0
+msg_status_game_deal = Juego finalizado. Por favor, selecciona la apuesta.
+msg_status_game_draw_hold0_loss = Conservar/cambiar las cartas o coger nuevas cartas.
+msg_status_game_draw_hold0_win = Conservar/cambiar las cartas o cobrar para iniciar riesgo.
+msg_status_game_draw_hold14_loss = Cambiar las cartas o no conservar ninguna para la nueva tanda.
+msg_status_game_draw_hold14_win = Cambiar las cartas o conservar ninguna/todas para cobrar el premio.
+msg_status_game_draw_hold5_loss = Cambiar las cartas o no conservar ninguna para la nueva tanda.
+msg_status_game_draw_hold5_win = Conservar/cambiar las cartas o cobrar para iniciar riesgo.
+msg_status_nogamble_top = Has ganado #0
+msg_status_winhand = Has ganado con #2:  #0
+msg_win = Gana
+tip_deal1 = Repartir 5 cartas nuevas
+tip_deal2 = Cambiar las cartas no seleccionadas (por nueva apuesta)
+tip_gamblechooseblack = Apostar a la carta negra
+tip_gamblechoosered = Apostar a la carta roja
+tip_gambletake = Interrumpir apuesta y cobrar el premio actual
+tip_holdall = Conservar todas las cartas
+tip_holdnone = No conservar ninguna carta
+tip_infoclose = Cerrar breves instrucciones del juego
+tip_infoopen = Abrir breves instrucciones del juego
+tip_take2 = Cobrar el premio actual
+
+#if mobile==1 #include /com/greentube/americanpoker/client/res/mobile/spanish.txt

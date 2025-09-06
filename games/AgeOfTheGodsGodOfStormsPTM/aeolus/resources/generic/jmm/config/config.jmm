@@ -1,0 +1,199 @@
+{
+    "config": {
+        "allow_debug": "false",
+        "reel_stop_line": 0,
+        "supported_languages": ["bg", "ch", "cs", "da", "de", "en", "es-mx", "es", "fi", "fr", "hr", "it", "ja", "ko", "ms", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sv", "th", "zh-cn"],
+        "game_code": "aeolus",
+        "server_type": "casino",
+
+        "show_paytable_as_scene": true,
+        "jackpot_supported": true,
+
+        "coin_sizes": [1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 75, 100, 200, 500, 1000],
+        "win_ranges": ["<2*tb", "<5*tb", "<12*tb", "<35*tb"],
+
+        "demo_max_win": 10000000,
+
+        "display_height": 3,
+        "display_width": 5,
+        "supported_orientation": "both",
+        "turbo_mode_supported": true,
+        "free_spins_bonus_supported": true,
+
+        "engine": {
+            "calculators": {
+                "wind-calculator": {
+                    "type": "wind-calculator",
+                    "wilds": [10, 11, 12, 13, 14, 15]
+                },
+                "display-win": {"type": "display-win"}
+            }
+        },
+
+        "features": {
+            "waves": {
+                "supported": true,
+                "skip-outro": false,
+                "reels-set": "re_spin",
+                "restore-reels": true,
+                "show-total-win": true,
+                "keep-last-win": true
+            }
+        },
+
+        "lines": [
+            {"id": 1,  "definition": [[0, 1], [1, 1], [2, 1], [3, 1], [4, 1]], "color": "#510D00"},
+            {"id": 2,  "definition": [[0, 0], [1, 0], [2, 0], [3, 0], [4, 0]], "color": "#510D00"},
+            {"id": 3,  "definition": [[0, 2], [1, 2], [2, 2], [3, 2], [4, 2]], "color": "#510D00"},
+            {"id": 4,  "definition": [[0, 0], [1, 1], [2, 2], [3, 1], [4, 0]], "color": "#510D00"},
+            {"id": 5,  "definition": [[0, 2], [1, 1], [2, 0], [3, 1], [4, 2]], "color": "#510D00"},
+            {"id": 6,  "definition": [[0, 0], [1, 0], [2, 1], [3, 2], [4, 2]], "color": "#510D00"},
+            {"id": 7,  "definition": [[0, 2], [1, 2], [2, 1], [3, 0], [4, 0]], "color": "#510D00"},
+            {"id": 8,  "definition": [[0, 0], [1, 1], [2, 1], [3, 1], [4, 0]], "color": "#510D00"},
+            {"id": 9,  "definition": [[0, 2], [1, 1], [2, 1], [3, 1], [4, 2]], "color": "#510D00"},
+            {"id": 10, "definition": [[0, 1], [1, 0], [2, 0], [3, 0], [4, 1]], "color": "#510D00"},
+            {"id": 11, "definition": [[0, 1], [1, 2], [2, 2], [3, 2], [4, 1]], "color": "#510D00"},
+            {"id": 12, "definition": [[0, 1], [1, 1], [2, 0], [3, 1], [4, 1]], "color": "#510D00"},
+            {"id": 13, "definition": [[0, 1], [1, 1], [2, 2], [3, 1], [4, 1]], "color": "#510D00"},
+            {"id": 14, "definition": [[0, 0], [1, 1], [2, 0], [3, 1], [4, 0]], "color": "#510D00"},
+            {"id": 15, "definition": [[0, 2], [1, 1], [2, 2], [3, 1], [4, 2]], "color": "#510D00"},
+            {"id": 16, "definition": [[0, 0], [1, 2], [2, 0], [3, 2], [4, 0]], "color": "#510D00"},
+            {"id": 17, "definition": [[0, 2], [1, 0], [2, 2], [3, 0], [4, 2]], "color": "#510D00"},
+            {"id": 18, "definition": [[0, 0], [1, 2], [2, 2], [3, 2], [4, 0]], "color": "#510D00"},
+            {"id": 19, "definition": [[0, 2], [1, 0], [2, 0], [3, 0], [4, 2]], "color": "#510D00"},
+            {"id": 20, "definition": [[0, 1], [1, 0], [2, 1], [3, 2], [4, 1]], "color": "#510D00"},
+            {"id": 21, "definition": [[0, 1], [1, 2], [2, 1], [3, 0], [4, 1]], "color": "#510D00"},
+            {"id": 22, "definition": [[0, 0], [1, 0], [2, 2], [3, 2], [4, 2]], "color": "#510D00"},
+            {"id": 23, "definition": [[0, 2], [1, 2], [2, 0], [3, 0], [4, 0]], "color": "#510D00"},
+            {"id": 24, "definition": [[0, 0], [1, 2], [2, 1], [3, 2], [4, 0]], "color": "#510D00"},
+            {"id": 25, "definition": [[0, 2], [1, 0], [2, 1], [3, 0], [4, 2]], "color": "#510D00"}
+        ],
+
+        "symbols": [
+            {"id": 0,  "sysname": "10",        "slice": "10_idle"},
+            {"id": 1,  "sysname": "j",         "slice": "j_idle"},
+            {"id": 2,  "sysname": "q",         "slice": "q_idle"},
+            {"id": 3,  "sysname": "k",         "slice": "k_idle"},
+            {"id": 4,  "sysname": "a",         "slice": "a_idle"},
+            {"id": 5,  "sysname": "urn",       "slice": "urn_idle"},
+            {"id": 6,  "sysname": "medallion", "slice": "medallion_idle"},
+            {"id": 7,  "sysname": "archer",    "slice": "archer_idle"},
+            {"id": 8,  "sysname": "amazon",    "slice": "amazon_idle"},
+            {"id": 9,  "sysname": "spartan",   "slice": "spartan_idle"},
+
+            {"id": 10, "sysname": "wild_top", "slice": "wild_top_idle"},
+            {"id": 11, "sysname": "wild_mid", "slice": "wild_mid_idle"},
+            {"id": 12, "sysname": "wild_bot", "slice": "wild_bot_idle"},
+
+            {"id": 13, "sysname": "ship_wild_top", "slice": "ship_wild_top_idle"},
+            {"id": 14, "sysname": "ship_wild_mid", "slice": "ship_wild_mid_idle"},
+            {"id": 15, "sysname": "ship_wild_bot", "slice": "ship_wild_bot_idle", "order": 1}
+        ],
+
+        "reels.rotation": [
+            {"@P": "config/reels.rotation.default", "next_reel_stop_delay": [400, 400, 400, 400]},
+            {"@P": "config/reels.rotation.turbo"}
+        ],
+
+        "symbols.wildId": -1,
+        "symbols.ship_wilds": [13, 14, 15],
+        "symbols.wilds":      [10, 11, 12],
+
+        "symbol_animations": [
+            {"symbol": 0, "win": "symbol_0.win", "total_win": "symbol_0.win", "non_win": "symbol_0.no_win"},
+            {"symbol": 1, "win": "symbol_1.win", "total_win": "symbol_1.win", "non_win": "symbol_1.no_win"},
+            {"symbol": 2, "win": "symbol_2.win", "total_win": "symbol_2.win", "non_win": "symbol_2.no_win"},
+            {"symbol": 3, "win": "symbol_3.win", "total_win": "symbol_3.win", "non_win": "symbol_3.no_win"},
+            {"symbol": 4, "win": "symbol_4.win", "total_win": "symbol_4.win", "non_win": "symbol_4.no_win"},
+            {"symbol": 5, "win": "symbol_5.win", "total_win": "symbol_5.win", "non_win": "symbol_5.no_win"},
+            {"symbol": 6, "win": "symbol_6.win", "total_win": "symbol_6.win", "non_win": "symbol_6.no_win"},
+            {"symbol": 7, "win": "symbol_7.win", "total_win": "symbol_7.win", "non_win": "symbol_7.no_win"},
+            {"symbol": 8, "win": "symbol_8.win", "total_win": "symbol_8.win", "non_win": "symbol_8.no_win"},
+            {"symbol": 9, "win": "symbol_9.win", "total_win": "symbol_9.win", "non_win": "symbol_9.no_win"},
+
+            {"symbol": 10, "win": "symbol_10.win.def", "total_win": "symbol_10.win.def", "non_win": "symbol_10.no_win", "stacked_win": "symbol_10.win.top"},
+            {"symbol": 11, "win": "symbol_11.win.def", "total_win": "symbol_11.win.def", "non_win": "symbol_11.no_win", "stacked_win": "symbol_11.win.mid"},
+            {"symbol": 12, "win": "symbol_12.win.bot", "total_win": "symbol_12.win.bot", "non_win": "symbol_12.no_win"},
+
+            {"symbol": 13, "win": {"id": "symbol_13.win.def", "front": true}, "total_win": {"id": "symbol_13.win.def", "front": true}, "non_win": {"id": "symbol_13.no_win", "front": true}, "stacked_win": {"id": "symbol_13.win.top", "front": true}},
+            {"symbol": 14, "win": {"id": "symbol_14.win.def", "front": true}, "total_win": {"id": "symbol_14.win.def", "front": true}, "non_win": {"id": "symbol_14.no_win", "front": true}, "stacked_win": {"id": "symbol_14.win.mid", "front": true}},
+            {"symbol": 15, "win": {"id": "symbol_15.win.bot", "front": true}, "total_win": {"id": "symbol_15.win.bot", "front": true}, "non_win": {"id": "symbol_15.no_win", "front": true}}
+        ],
+
+        "animations": {
+            "big_win_level": 4,
+            "win_panel.big_win_position": "69%",
+            "win_panel.show_duration": 300,
+            "win_panel.levels": [
+                {"id": "2", "scale": [1.3, 1.3], "pause": 0, "delays": [100]},
+                {"id": "3", "scale": [1.3, 1.3], "pause": 0, "delays": [100, 100]},
+                {"id": "4", "scale": [1.3, 1.3], "pause": 0, "delays": [0, 0, 7000]},
+                {"id": "5", "scale": [1.3, 1.3], "pause": 0, "delays": [940, 3700, 3700, 7290]}
+            ]
+        },
+
+        "sound": {
+            "win_sounds":{
+                "regular": [null, null, null, "win_4", "win_5"]
+            },
+            "reels_stop_sounds": [
+                {"symbol": -1, "sound": ["reel_stop_0", "reel_stop_1", "reel_stop_2", "reel_stop_3", "reel_stop_4"]}
+            ],
+            "total_win_sounds": ["total_win_1", "total_win_2", "total_win_3"]
+        },
+
+        "paytable":[
+            {"symbol": 0, "quantity": 5, "multiplier": 50},
+            {"symbol": 0, "quantity": 4, "multiplier": 15},
+            {"symbol": 0, "quantity": 3, "multiplier": 5},
+
+            {"symbol": 1, "quantity": 5, "multiplier": 50},
+            {"symbol": 1, "quantity": 4, "multiplier": 15},
+            {"symbol": 1, "quantity": 3, "multiplier": 5},
+
+            {"symbol": 2, "quantity": 5, "multiplier": 75},
+            {"symbol": 2, "quantity": 4, "multiplier": 20},
+            {"symbol": 2, "quantity": 3, "multiplier": 5},
+
+            {"symbol": 3, "quantity": 5, "multiplier": 75},
+            {"symbol": 3, "quantity": 4, "multiplier": 20},
+            {"symbol": 3, "quantity": 3, "multiplier": 5},
+
+            {"symbol": 4, "quantity": 5, "multiplier": 100},
+            {"symbol": 4, "quantity": 4, "multiplier": 25},
+            {"symbol": 4, "quantity": 3, "multiplier": 5},
+
+            {"symbol": 5, "quantity": 5, "multiplier": 150},
+            {"symbol": 5, "quantity": 4, "multiplier": 50},
+            {"symbol": 5, "quantity": 3, "multiplier": 10},
+
+            {"symbol": 6, "quantity": 5, "multiplier": 150},
+            {"symbol": 6, "quantity": 4, "multiplier": 50},
+            {"symbol": 6, "quantity": 3, "multiplier": 10},
+
+            {"symbol": 7, "quantity": 5, "multiplier": 250},
+            {"symbol": 7, "quantity": 4, "multiplier": 100},
+            {"symbol": 7, "quantity": 3, "multiplier": 15},
+            {"symbol": 7, "quantity": 2, "multiplier": 5},
+
+            {"symbol": 8, "quantity": 5, "multiplier": 250},
+            {"symbol": 8, "quantity": 4, "multiplier": 100},
+            {"symbol": 8, "quantity": 3, "multiplier": 15},
+            {"symbol": 8, "quantity": 2, "multiplier": 5},
+
+            {"symbol": 9, "quantity": 5, "multiplier": 500},
+            {"symbol": 9, "quantity": 4, "multiplier": 200},
+            {"symbol": 9, "quantity": 3, "multiplier": 25},
+            {"symbol": 9, "quantity": 2, "multiplier": 5},
+
+            {"symbol": 13, "quantity": 3, "multiplier": 25},
+            {"symbol": 13, "quantity": 2, "multiplier": 5},
+
+            {"symbol": 14, "quantity": 3, "multiplier": 25},
+            {"symbol": 14, "quantity": 2, "multiplier": 5},
+
+            {"symbol": 15, "quantity": 3, "multiplier": 25},
+            {"symbol": 15, "quantity": 2, "multiplier": 5}
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+#include source/res/slottranslations/commongenericcasino.txt
+
+
+
+image_lobby = room/room.jpg
+image_game = game/game.jpg
+
+
+
+;image_lobbytabledetail = // room/details.png
+;numtabledetails = 3
+;tabledetailx = 0
+;tabledetaily = 0
+;showdetailswitchwhenidle = 0
+showlastpayout = 0
+;sound_lobby0 = sound/lobbysound.mp3
+
+
+font_buttons = Verdana?style=bold&width=150
+font_textbuttons = Verdana?style=bold&width=130
+textcolor_buttons = 255,235,200
+outlinecolor_buttons = 0,0,0
+textcolor_buttonsdim = 255,255,255
+outlinecolor_buttonsdim = 0,0,0
+
+
+//lobby values
+image_lobbytable = room/newgame_but.png
+tableareabackcolor = 18,64,0
+
+admininfoleft = 0
+admininfotop = 830
+
+tablescrollstep = 59
+
+tableindentx = 294
+tableindenty = 236
+tableaddressx = 21
+tableaddressy = 16
+tableaddresscolor = 255,255,255
+font_tableaddress = Verdana?style=bold&width=110
+tablesrowsize = 4
+image_tableoccupied0 = room/user.png
+occupiedindentx = 68
+occupiedindenty = 38
+occupiednamex = 71
+occupiednamey = 180
+occupiednamewidth = 116
+occupiednameheight = 25
+
+tabletextx = 80
+tabletexty = 100
+numtabletextcolors = 1
+tabletextcolor0 = 255,255,0 
+font_tabletext = Verdana?style=bold&width=120
+
+
+
+
+
+

@@ -20,6 +20,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Collection;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Facades\Schema;
 
 
 class AppServiceProvider extends ServiceProvider
@@ -32,7 +33,14 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Carbon::setLocale(config('app.locale'));
-        config(['app.name' => settings('app_name')]);
+        // Safely set app.name from DB settings when available
+        try {
+            if (Schema::hasTable('settings')) {
+                config(['app.name' => settings('app_name')]);
+            }
+        } catch (\Throwable $e) {
+            // During early setup (before DB/migrations), skip pulling settings
+        }
         \Illuminate\Database\Schema\Builder::defaultStringLength(191);
 
    /*      if($this->app->environment('production')) {

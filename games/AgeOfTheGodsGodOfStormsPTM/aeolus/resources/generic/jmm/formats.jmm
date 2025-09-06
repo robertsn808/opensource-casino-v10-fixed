@@ -1,0 +1,16 @@
+{
+    "resources": {
+        "formats": {
+            "splash.text_1": {"font": "MinionProBold", "color": "#fff", "stroke": {"color": "#000", "thickness": 1}},
+            "splash.text_2": {"font": "MinionProBold", "color": "#FFC343", "stroke": {"color": "#000", "thickness": 1}, "size": 22},
+
+            "line_win": {"font": "MyriadProBold", "color": "#ebb125", "style": "bold", "text-pad": 20, "stroke": {"color": "#000", "thickness": 1}, "shadow": {"color": "#BF000", "offset": [0, 4]}},
+
+            "jackpot_labels": {"font": "Arial", "style": "bold", "color": "#ffdd77", "align": "center", "shadow": {"color": "#6a0958", "spread": 28, "opacity": 75}}
+        },
+        "fonts": {
+            "MinionProBold": "MinionPro-Bold.otf",
+            "MyriadProBold": "MyriadPro-Bold.otf"
+        }
+    }
+}

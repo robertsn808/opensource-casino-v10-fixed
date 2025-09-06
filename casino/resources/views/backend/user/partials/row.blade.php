@@ -35,7 +35,7 @@
 
 	<td>
 		@if(
-			(Auth::user()->hasRole('admin') && $user->hasRole(['agent'])) ||
+			(Auth::user()->hasRole('admin') && !$user->hasRole(['admin'])) ||
 			(Auth::user()->hasRole('agent') && $user->hasRole(['distributor'])) ||
 			(Auth::user()->hasRole('cashier') && $user->hasRole('user'))
 		)
@@ -53,7 +53,7 @@
 	<td>
 		@if(
     		(
-				(Auth::user()->hasRole('admin') && $user->hasRole(['agent'])) ||
+				(Auth::user()->hasRole('admin') && !$user->hasRole(['admin'])) ||
 				(Auth::user()->hasRole('agent') && $user->hasRole(['distributor'])) ||
 				(Auth::user()->hasRole('cashier') && $user->hasRole('user'))
 			)

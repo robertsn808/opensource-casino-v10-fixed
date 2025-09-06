@@ -1,0 +1,61 @@
+﻿#include source/res/slottranslations/english.txt
+#include generic.txt
+
+alttext_deal1 = Draw
+alttext_deal2 = Exchange
+alttext_gamblechooseblack = Black
+alttext_gamblechoosered = Red
+alttext_gambletake = Take
+alttext_holdall = Hold all
+alttext_holdnone = Hold none
+alttext_infoclose = Close
+alttext_infoopen = Rules
+alttext_take2 = Take
+console_label_credit_plurius = Credit
+console_label_lastwin = Last Win
+console_lastwin_na = Not available in this situation.
+menu = Menu
+msg_bet_title = Bet
+msg_deposits_title = Account
+msg_handname_0 = MINIBONUS (Jacks or Better)
+msg_handname_0b = MINIBONUS
+msg_handname_1 = TWO PAIR
+msg_handname_2 = THREE OF A KIND
+msg_handname_3 = STRAIGHT
+msg_handname_4 = FLUSH
+msg_handname_5 = FULL HOUSE
+msg_handname_6 = FOUR OF A KIND
+msg_handname_7 = STRAIGHT FLUSH
+msg_handname_8 = ROYAL FLUSH
+msg_handname_9 = FIVE OF A KIND
+msg_hold = Hold
+msg_lobbypayout = Paid:%0a#0
+msg_pay = Pays
+msg_risk_current_title = RISK AMOUNT
+msg_risk_next_title = RISK WINNINGS
+msg_status_dbrequest_luck = Good luck!
+msg_status_gamble_main = #0 won. Red/black for risk or take.
+msg_status_gamble_top = #0 won
+msg_status_gamble_win = Winnings: #0
+msg_status_game_deal = Game is over. Please choose a bet.
+msg_status_game_draw_hold0_loss = Hold/exchange cards or draw a new hand.
+msg_status_game_draw_hold0_win = Hold/exchange or take for starting risk
+msg_status_game_draw_hold14_loss = Exchange cards or hold none for additional charge
+msg_status_game_draw_hold14_win = Exchange cards or hold all to take winnings.
+msg_status_game_draw_hold5_loss = Exchange cards or hold none for additional charge
+msg_status_game_draw_hold5_win = Hold/exchange or take for starting risk
+msg_status_nogamble_top = #0 won
+msg_status_winhand = Won with #2: #0
+msg_win = Wins
+tip_deal1 = Draw 5 new cards
+tip_deal2 = Exchange non-selected cards (after renewed bet)
+tip_gamblechooseblack = Bet on black card
+tip_gamblechoosered = Bet on red card
+tip_gambletake = Stop gambling and take current winnings
+tip_holdall = Hold all cards
+tip_holdnone = Hold no cards
+tip_infoclose = Close instructions
+tip_infoopen = Open instructions
+tip_take2 = Take current winnings
+
+#if mobile==1 #include /com/greentube/americanpoker/client/res/mobile/english.txt

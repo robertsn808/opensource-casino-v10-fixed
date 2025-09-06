@@ -1,0 +1,20 @@
+{
+    "resources": {
+        "images": {
+            "dwb.text":  {"url": "../../translations/images/dwb/dwb_en.png", "preload.deferred": "main-scene"}
+        },
+        "slices": {
+            "big_win_0": {"image": "dwb.text", "size": [465, 92], "pos": [2, 467]},
+            "big_win_1": {"image": "dwb.text", "size": [463, 92], "pos": [2, 561]},
+            "big_win_2": {"image": "dwb.text", "size": [463, 92], "pos": [2, 655]},
+            "big_win_3": {"image": "dwb.text", "size": [463, 92], "pos": [2, 749]},
+            "big_win_4": {"image": "dwb.text", "size": [463, 92], "pos": [2, 843]},
+
+            "mega_win_0": {"image": "dwb.text", "size": [591, 91], "pos": [2,   2]},
+            "mega_win_1": {"image": "dwb.text", "size": [591, 91], "pos": [2,  95]},
+            "mega_win_2": {"image": "dwb.text", "size": [591, 91], "pos": [2, 188]},
+            "mega_win_3": {"image": "dwb.text", "size": [591, 91], "pos": [2, 281]},
+            "mega_win_4": {"image": "dwb.text", "size": [591, 91], "pos": [2, 374]}
+        }
+    }
+}

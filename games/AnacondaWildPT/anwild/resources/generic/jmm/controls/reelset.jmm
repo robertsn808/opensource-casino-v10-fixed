@@ -1,0 +1,81 @@
+{
+    "ui": {
+        "line.win": {"id": "line_win", "content": [
+            {"id": "line_win_panel", "size": [0.5, 0.3], "content": [
+                {"id": "_container", "background": "win_amount", "props": {"anchor.fit": "160 0 -160 0"}, "content": [
+                    {"id": "text", "type": "aw-win-label", "props": {"anchor.fit": "15"}}
+                ]}
+            ]}
+        ]},
+
+        "sprite.container": {"type": "anchor", "layout": {"relative": true}, "snap": false, "content": [
+            {"type": "stack", "props": {"anchor.fit": "0  0 75 0"}},
+            {"type": "stack", "props": {"anchor.fit": "25 0 50 0"}},
+            {"type": "stack", "props": {"anchor.fit": "50 0 25 0"}},
+            {"type": "stack", "props": {"anchor.fit": "75 0  0 0"}}
+        ]},
+
+        "reels.container": {"type": "vport", "layout": {"base": [985, 456]}, "snap": false, "content": [
+            {"id": "reel1", "size": [164, 456], "pos": [1,   0]},
+            {"id": "reel2", "size": [164, 456], "pos": [165, 0]},
+            {"id": "reel3", "size": [164, 456], "pos": [329, 0]},
+            {"id": "reel4", "size": [164, 456], "pos": [493, 0]},
+            {"id": "reel5", "size": [164, 456], "pos": [657, 0]},
+            {"id": "reel6", "size": [164, 456], "pos": [821, 0]}
+        ]},
+
+        "reels": {"@P": "ui/reels.container", "clipped": true, "content": [
+            {"id": "reel1", "type": "reel", "reel_id": 1, "group": "reels"},
+            {"id": "reel2", "type": "reel", "reel_id": 3, "group": "reels"},
+            {"id": "reel4", "type": "reel", "reel_id": 2, "group": "reels"},
+            {"id": "reel3", "type": "reel", "reel_id": 4, "group": "reels"},
+            {"id": "reel5", "type": "reel", "reel_id": 5, "group": "reels"},
+            {"id": "reel6", "type": "reel", "reel_id": 6, "group": "reels"}
+        ]},
+
+        "reels.sprites": {"@P": "ui/reels.container", "content": [
+            {"id": "reel1", "@P": "ui/sprite.container", "group": "spritePlace"},
+            {"id": "reel2", "@P": "ui/sprite.container", "group": "spritePlace"},
+            {"id": "reel3", "@P": "ui/sprite.container", "group": "spritePlace"},
+            {"id": "reel4", "@P": "ui/sprite.container", "group": "spritePlace"},
+            {"id": "reel5", "@P": "ui/sprite.container", "group": "spritePlace"},
+            {"id": "reel6", "@P": "ui/sprite.container", "group": "spritePlace"}
+        ]},
+
+        "reels.sprites.front": {"@P": "ui/reels.container", "content": [
+            {"id": "reel1", "@P": "ui/sprite.container", "group": "frontSpritePlace"},
+            {"id": "reel2", "@P": "ui/sprite.container", "group": "frontSpritePlace"},
+            {"id": "reel3", "@P": "ui/sprite.container", "group": "frontSpritePlace"},
+            {"id": "reel4", "@P": "ui/sprite.container", "group": "frontSpritePlace"},
+            {"id": "reel5", "@P": "ui/sprite.container", "group": "frontSpritePlace"},
+            {"id": "reel6", "@P": "ui/sprite.container", "group": "frontSpritePlace"}
+        ]},
+
+        "winline.frames": {"@P": "ui/reels.container", "content": [
+            {"id": "reel1", "@P": "ui/sprite.container", "group": "framePlace.front"},
+            {"id": "reel2", "@P": "ui/sprite.container", "group": "framePlace.front"},
+            {"id": "reel3", "@P": "ui/sprite.container", "group": "framePlace.front"},
+            {"id": "reel4", "@P": "ui/sprite.container", "group": "framePlace.front"},
+            {"id": "reel5", "@P": "ui/sprite.container", "group": "framePlace.front"},
+            {"id": "reel6", "@P": "ui/sprite.container", "group": "framePlace.front"}
+        ]},
+
+        "reelset": {"id": "reelset", "type": "vport", "layout": {"base": [985, 456]}, "snap": false, "content": [
+            {"@P": "ui/reels",                       "size": [985, 456]},
+            {"id": "reels_overlay", "type": "panel", "size": [985, 456]},
+            {"@P": "ui/reels.sprites",               "size": [985, 456]},
+            {"@P": "ui/dynamic-winlines-wrapper",    "size": [985, 456]},
+            {"type": "vport", "layout": {"base": [985, 456]}, "snap": false, "clipped": true, "content": [
+                {"@P": "ui/respins_reelsframe", "pos": [-9,412]},
+                {"@P": "ui/respins_reelsframe", "pos": [-9,45], "xform": {"scale": [1, -1]}},
+                {"@P": "ui/respins_reelsframe", "pos": [938,991], "xform": {"rotate": -90}},
+                {"@P": "ui/respins_reelsframe", "pos": [46,-9], "xform": {"rotate": 90}}
+            ]},
+            {"@P": "ui/wild.wrapper",        "size": [985, 456]},
+            {"@P": "ui/reels.sprites.front", "size": [985, 456]},
+            {"@P": "ui/winline.frames",      "size": [985, 456]},
+            {"@P": "ui/snake.wrapper",       "size": [985, 456]},
+            {"@P": "ui/line.win"}
+        ]}
+    }
+}

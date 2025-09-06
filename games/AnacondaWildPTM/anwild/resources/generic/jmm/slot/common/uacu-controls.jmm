@@ -1,0 +1,81 @@
+{
+    "config": {
+        "animations":{
+            "reels_overlay_color": "#50000",
+
+            "turbo_win_animations": false,
+            "animate_all_symbols": false,
+            "toggle.duration": 2000,
+
+            "big_win_level": 2,
+            "win_label.reel_index": 2,
+            "win_panel.skip_by_click": true,
+            "win_panel.pause": 0,
+            "win_panel.levels": [
+                {"id": "2", "pause": 0, "delays": [0]}
+            ]
+        },
+
+        "turbo-mode": {
+            "anticipation-enabled": true,
+            "anticipation-sound-enabled": true,
+            "reels-spin-sound-enabled": true,
+            "reel-stop-animation-enabled": true
+        },
+
+        "engine": {
+            "global_sort": true
+        },
+
+        "features": {
+            "free-spins": {
+                "auto-start": true,
+                "include-game-win": false
+            },
+            "cumulative-spin": {
+                "type": "reels-spin",
+                "cumulative-win": true
+            }
+        },
+
+        "win_ranges.uacu_default": {
+            "regular": {}
+        },
+
+        "reels.rotation.default": {"force_end_tilt": true},
+        "reels.rotation.turbo": {"force_end_tilt": true},
+
+        "angle_splitter_between_lines_segments": "5deg"
+    },
+
+    "ui": {
+        "line.win": {"id": "line_win", "type": "line-win", "managed": false, "content": [
+            {"id": "line_win_panel", "type": "anchor", "layout": {"relative": true}, "size": [0.8, 0.5], "content": [
+                {"id": "_container", "type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+                    {"id": "text", "@P": "ui/label.def", "format": "line_win", "props": {"anchor.fit": "0"}}
+                ]}
+            ]}
+        ]},
+        "uacu.game-wrapper": {"type": "vport", "layout": {"base": [1100, 720]}, "size-max": [1100, 720], "props": {"anchor.fit": 0, "anchor.alignment": "center", "anchor.bounded": true}, "content": [
+            {"#ID": "background", "id": "_background", "type": "panel", "size": [1302, 878], "pos": [-101, -79]},
+            {"#ID": "content", "id": "_content", "type": "anchor", "layout": {"relative": true}, "pos": [0, 0], "size": [1100, 720]}
+        ]},
+        "dynamic-winlines-wrapper": {"type": "anchor", "layout": {"relative": true}, "content": [
+            {"id": "winlines", "type": "winlines", "props": {"anchor.fit": 0}},
+            {"@P": "ui/dynamic-winlines"}
+        ]},
+        "dynamic-winlines": {"id": "dynamic-winlines", "type": "dynamic-winlines", "layout": {"type": "anchor", "relative": true}, "props": {"anchor.fit": 0}},
+        "dynamic-winline-proto": {"props": {"anchor.fit": 0}}
+    },
+
+    "resources": {
+        "animations": {
+            "uacu-winlines.show": {"type": "set", "content": [
+                {"type": "delay", "duration": 2000}
+            ]},
+            "uacu-winlines.hide": {"type": "set", "content": [
+                {"type": "opacity", "from": 1, "to": 0, "duration": 350}
+            ]}
+        }
+    }
+}

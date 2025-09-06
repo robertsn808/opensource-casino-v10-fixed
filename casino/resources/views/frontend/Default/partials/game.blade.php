@@ -13,9 +13,9 @@
                     <span class="label @if($game->label == 'New')label-b @elseif($game->label == 'Hot')label-g @else label-d @endif">{{ mb_strtoupper($game->label) }}</span>
                 @endif
                 @if(Auth::check())
-                <a href="{{ route('frontend.game.go', $game->name) }}?api_exit=/" class="play-btn btn">Play</a>
+                <a href="{{ getGameRoute($game) }}?api_exit=/" class="play-btn btn">Play</a>
                 @else
-                <a href="{{ route('frontend.game.go', $game->name) }}/prego?api_exit=/" class="play-btn btn">Demo</a>
+                <a href="{{ getGameRoute($game, true) }}?api_exit=/" class="play-btn btn">Demo</a>
                 @endif
                 <span class="game-name">{{ $game->title }}</span>
             </div>

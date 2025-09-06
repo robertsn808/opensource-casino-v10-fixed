@@ -11,7 +11,7 @@
                     <img class="modal-base__decor-logo" src="/woocasino/resources/images/logo1.png" alt="">
                 </div>
                 <h3 class="modal-base__title ng-scope" translate="frontend.links.login">@lang('app.log_in')</h3>
-                <form ng-submit="sendForm($event)" action="<?= route('frontend.auth.login.post') ?>" method="POST" data-modal-success="#login-modal">
+                <form ng-submit="sendForm($event)" action="<?= route('frontend.auth.login.post') ?>" method="POST">
                     @csrf
                     <div class="form">
                         <div class="form__field">
@@ -30,7 +30,6 @@
                         @endif
                     </div>
                     <div class="modal-base__btn-wrp">
-                        <input type="hidden" value="/" name="is_ajax" id="is_ajax" />
                         <button class="button button-secondary form__btn form__btn--mrg-btm ng-binding" type="submit" style="width:90%;">@lang('app.login')</button>
                         <button class="button button-neutral form__btn ng-scope ng-binding" ng-click="openModal($event, '#registration-confirm')" style="width:90%;">@lang('app.register')</button>
                     </div>
@@ -256,4 +255,3 @@
                 <input ng-click="closeModal($event)" type="submit" value="Close" class="popup__button button" />
         </div>
 </div>
-

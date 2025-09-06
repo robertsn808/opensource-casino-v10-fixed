@@ -17,6 +17,21 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Database Tables
+    |--------------------------------------------------------------------------
+    |
+    | Configure table names to match our w_ prefixed schema
+    |
+    */
+
+    'rolesTable' => 'roles',
+    'roleUserTable' => 'role_user',
+    'permissionsTable' => 'permissions',
+    'permissionsRoleTable' => 'role_permissions',
+    'permissionsUserTable' => 'permission_user',
+
+    /*
+    |--------------------------------------------------------------------------
     | Slug Separator
     |--------------------------------------------------------------------------
     |

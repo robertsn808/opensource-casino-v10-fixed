@@ -1,0 +1,53 @@
+{
+    "resources": {
+        "animations": {
+            "win.show": {"type": "set-widget", "lookup": "_wrapper/small/_tickup", "content": [
+                {"type": "set-config", "config": {"props": {"anchor-ex.absolute": true, "anchor.fit": "40 10"}, "visible": true}}
+            ]},
+            "win.hide": {"type": "set-widget", "lookup": "_wrapper/small/_tickup", "content": [
+                {"type": "delay", "duration": 300},
+                {"type": "abs-to-local", "to": "37 2 6 2", "duration": 500},
+                {"type": "set-config", "config": {"visible": false}}
+            ]},
+            "win.hide_2": {"type": "set", "content": [
+                {"type": "delay", "duration": 1700},
+                {"@P": "resources/animations/win.hide"}
+            ]},
+            "win.update": {"type": "set-widget", "lookup": "_wrapper/small/_tickup", "content": [
+                {"type": "set-config", "config": {"props": {"anchor-ex.absolute": false, "anchor.fit": "37 2 6 2"}, "visible": false}}
+            ]},
+            "win.cancel": {"type": "set-widget", "lookup": "_wrapper/small/_tickup", "content": [
+                {"type": "delay", "duration": 2000}
+            ]}
+        }
+    },
+
+    "config": {
+        "animations":{
+            "win_panel.levels": [
+                {"id": "0", "animation.show": "win.show", "animation.hide": "win.hide",   "animation.fast_show": "win.update", "animation.cancel": "win.cancel"},
+                {"id": "1", "animation.show": "win.show", "animation.hide": "win.hide",   "animation.fast_show": "win.update", "animation.cancel": "win.cancel"},
+                {"id": "2", "animation.show": "win.show", "animation.hide": "win.hide_2", "animation.fast_show": "win.update", "animation.cancel": "win.cancel"}
+            ]
+        }
+    },
+
+    "ui": {
+        "bp.feature_msg": {"content": [
+            {"#remove-id": "bp.feature_msg.instruction"},
+            {"id": "bp.feature_msg.text", "@O": {"landscape": {"props": {"anchor.fit": "31 1 30.5 1"}}, "portrait": {"props": {"anchor.fit": "29.4 1 29.4 1"}}}}
+        ]},
+
+        "win-panel": {"content": [
+            {"id": "_wrapper", "content": [
+                {"id": "small", "type": "anchor-ex", "layout": {"alignment": "center"}, "content": [
+                    {"id": "big_win.shadow", "type": "panel", "background": "#50000", "props": {"anchor-ex.absolute": true, "anchor.fit": "0"}, "propagative": false, "visible": false, "managed": false},
+                    {"id": "_tickup", "type": "panel", "layout": {"type": "anchor", "relative": true, "alignment": "center"}, "props": {"anchor.fit": "37 2 6 2"}, "visible": false, "content": [
+                        {"id": "win.tickup", "@P": "ui/label.def", "type": "win-label", "hide-sign": true, "props": {"anchor.fit": "0"}, "format": "bp.win.value"}
+                    ]}
+                ]},
+                {"#remove-id": "big"}
+            ]}
+        ]}
+    }
+}

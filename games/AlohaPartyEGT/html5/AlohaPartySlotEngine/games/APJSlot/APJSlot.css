@@ -1,0 +1,48 @@
+#Game.slot.APJSlot .gameViewport { background: url('AlohaPartySlotEngine/games/APJSlot/images/background.jpg?v=1.2.0.r|11-07-2019|13:57:42') top center; }
+#Game.slot.APJSlot .backgroundOverlay { background-image: url('AlohaPartySlotEngine/games/APJSlot/images/backgroundOverlay.png?v=1.2.0.r|11-07-2019|13:57:42');  }
+#Game.slot.APJSlot .gameTitle { background-image: url('AlohaPartySlotEngine/games/APJSlot/images/gameTitle.png?v=1.2.0.r|11-07-2019|13:57:42'); }
+#Game.slot.APJSlot .gameTitle.noJackpot { background-image: url('AlohaPartySlotEngine/games/APJSlot/images/gameTitleNoJackpot.png?v=1.2.0.r|11-07-2019|13:57:42'); }
+#Game.slot.APJSlot .topGameTitle { background-image: url('AlohaPartySlotEngine/games/APJSlot/images/topGameTitle.png?v=1.2.0.r|11-07-2019|13:57:42'); }
+#Game.slot.APJSlot .denomButton { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/denominationButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .autoplayButton { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/autoSoundButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .soundButton { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/autoSoundButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .betButton { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/betButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .icons{		background-image: url("AlohaPartySlotEngine/games/APJSlot/images/settingsInfo.png?v=1.2.0.r|11-07-2019|13:57:42");}
+#Game.slot.APJSlot .iconsImage{	background-image: url("AlohaPartySlotEngine/games/APJSlot/images/settingsInfo.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .jackpotBoxes { background-image: url('AlohaPartySlotEngine/games/APJSlot/images/backgroundOverlay.png?v=1.2.0.r|11-07-2019|13:57:42'); }
+#Game.slot.APJSlot .jackpotContentView 
+{ 
+	border-color: #e99333; 
+	background: -webkit-linear-gradient(#a38244, #dcc288);
+	background: -o-linear-gradient(#a38244, #dcc288);
+	background: -moz-linear-gradient(#a38244, #dcc288);
+	background: linear-gradient(#a38244, #dcc288);
+}
+#Game.slot.APJSlot .bottomUIContainer { background-image: url('AlohaPartySlotEngine/games/APJSlot/images/backgroundOverlay.png?v=1.2.0.r|11-07-2019|13:57:42'); }
+#Game.slot.APJSlot .gambleContainer { border-color: #e99333; }
+#Game.slot.APJSlot .settingsView { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/background.jpg?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .settingsPaytableCloseButton { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .settingsPaytableCloseButtonArrow { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .settingsPaytableCloseButtonArrowHighlight { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .paytableFromSettingsButton { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .settingsFromPaytableButton { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/settingsPaytableCloseButton.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .waysToPayImage { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/waysPay.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .x2Image { background-image: url("AlohaPartySlotEngine/games/APJSlot/images/x2.png?v=1.2.0.r|11-07-2019|13:57:42"); }
+#Game.slot.APJSlot .textField.lines
+{
+	color: #ccc7be;
+	text-shadow: 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e,
+	0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e,
+	0px 0px 6px #01440e, 0px 0px 6px #01440e, 0px 0px 6px #01440e;
+}
+#Game.slot.APJSlot .textField.lines.active
+{
+	color: #e28f09;
+	font-weight: bold;
+	text-shadow: 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000,
+	0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000,
+	0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000;
+}
+#Game.slot.APJSlot .gameNumberTime { color: #bec2c9; }
+#Game.slot.APJSlot .textField.totals { color: #bec2c9; }
+#Game.slot.APJSlot .textField.totals.jackpot { color: #bec2c9; }

@@ -1,0 +1,43 @@
+{
+    "modules": {
+        "default": {
+            "window":{
+                "pos": "center",
+                "size": [1136, 640]
+            },
+            "jmms": [
+                "slot/common/media.jmm",
+                "slot/common/controls.jmm",
+                "slot/common/uacu-controls.jmm",
+                "slot/common/mobile/uacu-controls.jmm",
+                "slot/common/engine-settings.jmm",
+                "slot/common/debug_config.jmm",
+
+                "config/config.jmm",
+                "config/snake_config.jmm",
+                "animations/animations.jmm",
+                "animations/dwb_animations.jmm",
+                "formats.jmm",
+                "images/images.jmm",
+                "media.jmm",
+                "ui/ui.jmm",
+                "scenes/paytable.jmm",
+                "scenes/main.jmm",
+                "controls/reelset.jmm",
+                "controls/side-buttons.jmm"
+            ],
+            "localizedBrandedJmms": [
+                "../../translations/jmm/slot/common/texts/texts_en.jmm",
+
+                "../../translations/jmm/dwb/dwb_en.jmm",
+                "../../translations/jmm/respin/respin_en.jmm"
+            ],
+            "tablet": [
+                "slot/common/controls_tablet.jmm"
+            ],
+            "branding": [
+                "slot/common/branding/brand.jmm"
+            ]
+        }
+    }
+}

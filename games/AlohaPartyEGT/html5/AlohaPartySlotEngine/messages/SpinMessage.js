@@ -1,0 +1,2 @@
+function SpinMessage(g,a,b,c,h,k,l,m,d,e,n,f,p,q){this.type=BaseMessage.SPIN;this.state=p;this.reels=g.slice();a&&(this.lines=a.slice(),this.lines.sort(function(a,b){return GameSettings.getInstance().lineGame?a.line-b.line:b.card-a.card}));f&&(this.holdReels=f.slice());b&&(this.scatters=b.slice());c&&(this.expand=c.slice());this.gameNumber=n;this.winAmount=h;this.gambleAttemptsLeft=k;this.jackpot=l;this.freeSpins=m;this.respin=q;e&&(this.freeSpinScatters=e.slice());d&&(this.freeSpinsPerLine=d.slice())}
+;

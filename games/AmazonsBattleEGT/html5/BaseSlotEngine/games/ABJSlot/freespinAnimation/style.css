@@ -1,0 +1,76 @@
+#FreespinAnimation
+{
+	z-index: 900;
+}
+
+#FreespinAnimation .startView
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/en/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.it
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/it/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.bg
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/bg/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.ru
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/ru/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.nl
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/nl/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.fr
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/fr/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.ro
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/ro/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.es
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/es/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.mk
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/mk/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+#FreespinAnimation .startView.pt
+{
+
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/pt/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+
+#FreespinAnimation .startView.da
+{
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/da/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+
+#FreespinAnimation .startView.hu
+{
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/hu/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+
+#FreespinAnimation .startView.sv
+{
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/sv/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+
+#FreespinAnimation .startView.de
+{
+	background: url('BaseSlotEngine/games/ABJSlot/freespinAnimation/images/de/pressStart.jpg?v=1.5.0.r|23-07-2019|08:23:48') no-repeat 0 0;
+}
+

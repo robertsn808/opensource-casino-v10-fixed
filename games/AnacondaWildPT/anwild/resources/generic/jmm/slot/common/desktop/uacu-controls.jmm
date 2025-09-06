@@ -1,0 +1,20 @@
+{
+    "config": {
+        "side_buttons": {
+            "highlight_lines": true,
+            "highlight_buttons": true
+        },
+
+        "hide_currency_sign": true
+    },
+
+    "ui": {
+        "uacu.game-wrapper": {"content": [
+            {"id": "_background", "size": [1600, 878], "pos": [-250, -79]}
+        ]},
+
+        "big_win.shadow": {"type": "anchor-ex", "layout": {"relative": true}, "content": [
+            {"id": "big_win.shadow", "type": "panel", "background": "#50000", "props": {"anchor-ex.absolute": true, "anchor.fit": "0"}, "propagative": false, "visible": false, "managed": false}
+        ]}
+    }
+}

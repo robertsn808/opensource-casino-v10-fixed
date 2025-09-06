@@ -1,0 +1,48 @@
+{"frames": { 
+
+"banner_font": 
+{
+    "frame": { "x":2,"y":546,"w":647,"h":95}, 
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":647,"h":95},
+	"sourceSize": {"w":647,"h":95}
+}, 
+"banner_info_0": 
+{
+    "frame": { "x":2,"y":2,"w":1280,"h":480}, 
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":480},
+	"sourceSize": {"w":1280,"h":480}
+}, 
+"btn": 
+{
+    "frame": { "x":973,"y":546,"w":264,"h":64}, 
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":18,"w":264,"h":64},
+	"sourceSize": {"w":300,"h":100}
+}, 
+"info": 
+{
+    "frame": { "x":2,"y":484,"w":1280,"h":60}, 
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":60},
+	"sourceSize": {"w":1280,"h":60}
+}, 
+"product": 
+{
+    "frame": { "x":651,"y":546,"w":320,"h":100}, 
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":100},
+	"sourceSize": {"w":320,"h":100}
+}},
+"meta": {
+    "image": "load_2.png",
+	"size": {"w":1284,"h":648},
+    "scale": "1"
+}
+}

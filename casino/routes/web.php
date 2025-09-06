@@ -149,6 +149,19 @@ Route::namespace ('Frontend')->middleware(['siteisclosed', 'checker'])->group(fu
 
     Route::get('game/{game}/{prego}', ['as' => 'frontend.game.go.prego', 'uses' => 'GamesController@go']);
 
+    // External games integration
+    Route::get('external/{game}', ['as' => 'frontend.game.external', 'uses' => 'GamesController@external']);
+    
+    // Test route for external games integration
+    Route::get('test-games', function() {
+        return view('test_games');
+    });
+
+    // Redirect old URL pattern to correct route
+    Route::get('frontend/games/list/{game}', function($game) {
+        return redirect()->route('frontend.game.go', $game);
+    });
+
     Route::get('/game_stat', ['as' => 'frontend.game_stat', 'uses' => 'GamesController@game_stat', ]);
 
     Route::get('/tournaments', ['as' => 'frontend.tournaments', 'uses' => 'TournamentsController@index', ]);

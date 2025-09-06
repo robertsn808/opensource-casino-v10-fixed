@@ -527,14 +527,20 @@ namespace VanguardLTE\Http\Controllers\Web\Backend
         public function go(\Illuminate\Http\Request $request, $game)
         {
             $userId = \Illuminate\Support\Facades\Auth::id();
-            $object = '\VanguardLTE\Games\\' . $game . '\SlotSettings';
+            $object = '\\VanguardLTE\\Games\\' . $game . '\\SlotSettings';
+            if (!class_exists($object)) {
+                $init = base_path('app/Games/' . $game . '/init.php');
+                if (file_exists($init)) {
+                    include_once $init;
+                }
+            }
             $slot = new $object($game, $userId);
             $game = \VanguardLTE\Game::where('name', $game)->first();
             return view('backend.games.list.' . $game->name, compact('slot', 'game'));
         }
         public function server(\Illuminate\Http\Request $request, $game)
         {
-            $object = '\VanguardLTE\Games\\' . $game . '\Server';
+            $object = '\\VanguardLTE\\Games\\' . $game . '\\Server';
             $server = new $object();
             echo $server->get($request, $game);
         }

@@ -549,6 +549,12 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
                     }
                 }
             }
+            if( $category1 == '' ) { 
+                return $this->do_redirect($request, [
+                    'category1' => 'all',
+                    'page' => $request->cookie('currentPage')
+                ], $error);
+            }
             return false;
         }
         public function do_redirect(\Illuminate\Http\Request $request, $option, $error)
@@ -971,13 +977,22 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             }
             
             $detect = new \Detection\MobileDetect();
-            $object = '\VanguardLTE\Games\\' . $game . '\SlotSettings';
+            $object = '\\VanguardLTE\\Games\\' . $game . '\\SlotSettings';
             if( !class_exists($object) ) 
             {
-                abort(404);
+                // Try to include game's init file then retry, else redirect to list
+                $init = base_path('app/Games/' . $game . '/init.php');
+                if( file_exists($init) ){
+                    include_once($init);
+                }
+                if( !class_exists($object) ){
+                    return redirect()->route('frontend.game.list');
+                }
             }
+            // Preserve name before we reuse $game for the model
+            $gameName = $game;
             $game = \VanguardLTE\Game::where([
-                'name' => $game, 
+                'name' => $gameName, 
                 'shop_id' => auth()->user()->shop_id
             ]);
             if( $detect->isMobile() || $detect->isTablet() ) 
@@ -997,7 +1012,18 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             $game = $game->first();
             if( !$game ) 
             {
-                return redirect()->route('frontend.game.list');
+                // If the game isn’t present in this shop, try to replicate it from the global catalog (shop_id 0)
+                $template = \VanguardLTE\Game::where(['name' => $gameName, 'shop_id' => 0])->first();
+                if( $template ){
+                    $newGame = $template->replicate();
+                    $newGame->original_id = $template->id;
+                    $newGame->shop_id = auth()->user()->shop_id;
+                    $newGame->view = $template->view;
+                    $newGame->save();
+                    $game = $newGame;
+                } else {
+                    return redirect()->route('frontend.game.list');
+                }
             }
             if( !$game->view ) 
             {
@@ -1283,7 +1309,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
                 ]);
             }
             \VanguardLTE\Subsession::where('id', '!=', $subssession->id)->where('user_id', auth()->user()->id)->update(['active' => 0]);
-            $object = '\VanguardLTE\Games\\' . $game . '\Server';
+            $object = '\\VanguardLTE\\Games\\' . $game . '\\Server';
             $server = new $object();
             echo $server->get($request, $game, auth()->user()->id);
         }
@@ -1299,6 +1325,73 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
                 return json_encode(['status' => 1]);
             }
             return json_encode(['status' => 0]);
+        }
+
+        public function external(\Illuminate\Http\Request $request, $game)
+        {
+            if( \Illuminate\Support\Facades\Auth::check() && !auth()->user()->hasRole('user') ) 
+            {
+                return redirect()->route('backend.dashboard');
+            }
+
+            $isDemoMode = false;
+            $userId = null;
+            $user = null;
+
+            // Handle both authenticated and demo modes
+            if( !\Illuminate\Support\Facades\Auth::check() ) 
+            {
+                // Demo mode - create a temporary demo user session
+                $isDemoMode = true;
+                $userId = 'demo_' . time() . '_' . rand(1000, 9999);
+                
+                // Create a mock user object for demo
+                $user = (object) [
+                    'id' => $userId,
+                    'balance' => 1000.00,
+                    'shop_id' => 1,
+                    'present' => function() {
+                        return (object) [
+                            'shop' => (object) ['currency' => 'USD']
+                        ];
+                    }
+                ];
+            } else {
+                $userId = \Illuminate\Support\Facades\Auth::id();
+                $user = auth()->user();
+            }
+
+            // Check if external game directory exists
+            $gamePath = base_path('games/' . $game);
+            if (!is_dir($gamePath)) {
+                return redirect()->route('frontend.game.list')->withErrors('Game not found');
+            }
+
+            // Generate dynamic session token
+            $sessionToken = hash('sha256', $userId . time() . config('app.key'));
+            
+            // Store session token for this user
+            session(['game_session_token' => $sessionToken]);
+            session(['current_game' => $game]);
+
+            // Get socket configuration
+            $socketConfig = json_decode(file_get_contents(public_path('socket_config.json')), true);
+
+            // Game configuration
+            $gameConfig = [
+                'sessionKey' => $sessionToken,
+                'userId' => $userId,
+                'balance' => $isDemoMode ? 1000.00 : $user->balance,
+                'currency' => $isDemoMode ? 'USD' : ($user->present()->shop ? $user->present()->shop->currency : 'USD'),
+                'gameId' => $game,
+                'socketConfig' => $socketConfig,
+                'lang' => 'en',
+                'gameBase' => '/games/' . $game . '/',
+                'apiUrl' => route('frontend.game.server', $game),
+                'demoMode' => $isDemoMode
+            ];
+
+            return view('frontend.games.external_wrapper', compact('game', 'gameConfig', 'user', 'isDemoMode'));
         }
     }
 

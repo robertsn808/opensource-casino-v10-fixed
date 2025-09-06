@@ -1,0 +1,1138 @@
+{
+  "sounds" : {
+    "/source/sound/card_hold0" : {
+      "end" : 0.262,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_hold1" : {
+      "end" : 0.262,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_hold2" : {
+      "end" : 0.262,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_hold3" : {
+      "end" : 0.314,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_hold4" : {
+      "end" : 0.314,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_holdall" : {
+      "end" : 0.314,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_holdnone" : {
+      "end" : 0.262,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/globewarning" : {
+      "end" : 0.471,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win_high" : {
+      "end" : 23.511,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win_low" : {
+      "end" : 1.281,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win_mini_add" : {
+      "end" : 0.445,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win_mini_pay" : {
+      "end" : 3.188,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win_silence" : {
+      "end" : 3.24,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/betchange" : {
+      "end" : 0.445,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_give" : {
+      "end" : 1.15,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_give1" : {
+      "end" : 0.732,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_give2" : {
+      "end" : 0.81,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_give3" : {
+      "end" : 0.915,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_give4" : {
+      "end" : 0.993,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card_give5" : {
+      "end" : 1.098,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/credit_increase" : {
+      "end" : 0.21,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/credit_increasefast" : {
+      "end" : 0.183,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_blink" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_start" : {
+      "end" : 0.471,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step0" : {
+      "end" : 1.359,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step1" : {
+      "end" : 1.124,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step2" : {
+      "end" : 0.967,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step3" : {
+      "end" : 0.81,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step4" : {
+      "end" : 0.654,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step5" : {
+      "end" : 0.523,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step6" : {
+      "end" : 0.366,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step7" : {
+      "end" : 0.183,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step8" : {
+      "end" : 0.183,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble_step9" : {
+      "end" : 0.183,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound_top" : {
+      "end" : 13.976,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/info_move" : {
+      "end" : 1.463,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/shortsilence" : {
+      "end" : 3.109,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/lobby2" : {
+      "end" : 4.207,
+      "panning" : 0.0,
+      "samplingFrequency" : 22050,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplayforcedstop" : {
+      "end" : 0.183,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystart" : {
+      "end" : 0.497,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystop" : {
+      "end" : 0.758,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/click" : {
+      "end" : 0.105,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/creditincrease" : {
+      "end" : 9.667,
+      "panning" : 0.0,
+      "samplingFrequency" : 22050,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/overlayclose" : {
+      "end" : 0.392,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/overlayopen" : {
+      "end" : 0.497,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystart" : {
+      "end" : 1.437,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystop" : {
+      "end" : 1.49,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/changebet" : {
+      "end" : 0.392,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/decidegamble" : {
+      "end" : 4.128,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/wincountstop" : {
+      "end" : 0.419,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/preloader_sound" : {
+      "end" : 4.023,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/creditincrease" : {
+      "end" : 9.744,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/wincountstop" : {
+      "end" : 0.419,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/preloader_sound" : {
+      "end" : 4.023,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/countup" : {
+      "end" : 1.518,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble0" : {
+      "end" : 0.34,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble1" : {
+      "end" : 0.34,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble2" : {
+      "end" : 0.366,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble3" : {
+      "end" : 0.366,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble4" : {
+      "end" : 0.34,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble5" : {
+      "end" : 0.34,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamble6" : {
+      "end" : 0.366,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gambledtojackpot" : {
+      "end" : 8.595,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/lose" : {
+      "end" : 0.72,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/luckyloser" : {
+      "end" : 3.04,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/swoosh" : {
+      "end" : 0.781,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win" : {
+      "end" : 1.439,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplayforcedstop" : {
+      "end" : 0.183,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystart" : {
+      "end" : 0.497,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystop" : {
+      "end" : 0.758,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/changebet" : {
+      "end" : 0.445,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/changemaxbet" : {
+      "end" : 0.288,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/creditincrease" : {
+      "end" : 9.744,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/decidegamble" : {
+      "end" : 2.482,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblelost" : {
+      "end" : 0.262,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblesuspense" : {
+      "end" : 1.15,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin" : {
+      "end" : 1.568,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin1" : {
+      "end" : 0.601,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin10" : {
+      "end" : 0.784,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin11" : {
+      "end" : 0.784,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin12" : {
+      "end" : 0.758,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin2" : {
+      "end" : 0.654,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin3" : {
+      "end" : 0.706,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin4" : {
+      "end" : 0.654,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin5" : {
+      "end" : 0.654,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin6" : {
+      "end" : 0.732,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin7" : {
+      "end" : 0.732,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin8" : {
+      "end" : 0.758,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin9" : {
+      "end" : 0.758,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewintop" : {
+      "end" : 28.108,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/100ms" : {
+      "end" : 0.1,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/1sec" : {
+      "end" : 1.0,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/500ms" : {
+      "end" : 0.499,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblesuspense" : {
+      "end" : 6.934,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun" : {
+      "end" : 2.648,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/silence" : {
+      "end" : 0.499,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/anyadmi" : {
+      "end" : 1.828,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystart" : {
+      "end" : 1.437,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystop" : {
+      "end" : 1.49,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/casper" : {
+      "end" : 19.566,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/changebet" : {
+      "end" : 0.392,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/clou" : {
+      "end" : 28.996,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/creditincrease" : {
+      "end" : 0.236,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/decidegamble" : {
+      "end" : 4.128,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/gamblewin" : {
+      "end" : 1.568,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/oneadmi" : {
+      "end" : 3.188,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/overlayopen" : {
+      "end" : 1.594,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun" : {
+      "end" : 4.676,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelsilent" : {
+      "end" : 3.814,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelsilent2016" : {
+      "end" : 0.053,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelstop" : {
+      "end" : 0.392,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelstop2016" : {
+      "end" : 0.497,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/threeadmi" : {
+      "end" : 5.669,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/triumph" : {
+      "end" : 14.734,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/twoadmi" : {
+      "end" : 4.232,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win10" : {
+      "end" : 1.045,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win2" : {
+      "end" : 0.653,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win20" : {
+      "end" : 1.098,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win25" : {
+      "end" : 2.378,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/win5" : {
+      "end" : 0.863,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/wincountstop" : {
+      "end" : 0.419,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/winring" : {
+      "end" : 1.359,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/winring_10steps" : {
+      "end" : 7.916,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/wintiny" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/overlayclose" : {
+      "end" : 0.392,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/overlayopen" : {
+      "end" : 0.497,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card1" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card10" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card11" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card12" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card13" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card14" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card15" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card2" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card3" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card4" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card5" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card6" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card7" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card8" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/card9" : {
+      "end" : 0.157,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/turn_card" : {
+      "end" : 0.105,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun1" : {
+      "end" : 2.378,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun2" : {
+      "end" : 2.378,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun3" : {
+      "end" : 2.378,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun4" : {
+      "end" : 2.378,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun5" : {
+      "end" : 2.378,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelrun_clickering" : {
+      "end" : 2.325,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/reelstop" : {
+      "end" : 0.34,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/lobby2" : {
+      "end" : 4.259,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/rouletteincrease" : {
+      "end" : 0.863,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/roulettelost" : {
+      "end" : 0.288,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/roulettespin" : {
+      "end" : 3.083,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/roulettestep" : {
+      "end" : 0.131,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/roulettewinsg" : {
+      "end" : 1.124,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/supergamewon" : {
+      "end" : 0.549,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystart" : {
+      "end" : 1.437,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/autoplaystop" : {
+      "end" : 1.49,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/changebet" : {
+      "end" : 0.392,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/decidegamble" : {
+      "end" : 4.128,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/wincountstop" : {
+      "end" : 0.419,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    },
+    "/source/sound/threeadmi" : {
+      "end" : 5.669,
+      "panning" : 0.0,
+      "samplingFrequency" : 44100,
+      "sourceformat" : "mp3",
+      "start" : 0.0
+    }
+  }
+}
