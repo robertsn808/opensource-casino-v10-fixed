@@ -30,7 +30,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
                 'shop_id' => 0
             ]);
             
-            $frontend = settings('frontend');
+            $frontend = settings('frontend') ?: 'Default';
 
    
 
@@ -284,7 +284,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
                     }
                 }
             }
-            $frontend = settings('frontend');
+            $frontend = settings('frontend') ?: 'Default';
             if( $shop_id && $shop ) 
             {
                 $frontend = $shop->frontend;
@@ -796,7 +796,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             {
                 $q->where('name', 'like', '%' . $query . '%')->orWhere('title', 'like', '%' . $query . '%');
             });
-            $frontend = settings('frontend');
+            $frontend = settings('frontend') ?: 'Default';
             if( $shop_id && $shop ) 
             {
                 $frontend = $shop->frontend;
@@ -1047,7 +1047,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             $shop = \VanguardLTE\Shop::find($shop_id);
             $currentSliderNum = -1;
             $category1 = '';
-            $frontend = settings('frontend');
+            $frontend = settings('frontend') ?: 'Default';
             if( $shop_id && $shop ) 
             {
                 $frontend = $shop->frontend;
@@ -1109,7 +1109,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             $shop = \VanguardLTE\Shop::find($shop_id);
             $currentSliderNum = -1;
             $category1 = '';
-            $frontend = settings('frontend');
+            $frontend = settings('frontend') ?: 'Default';
             if( $shop_id && $shop ) 
             {
                 $frontend = $shop->frontend;
@@ -1168,7 +1168,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             $shop = \VanguardLTE\Shop::find($shop_id);
             $currentSliderNum = -1;
             $category1 = '';
-            $frontend = settings('frontend');
+            $frontend = settings('frontend') ?: 'Default';
             if( $shop_id && $shop ) 
             {
                 $frontend = $shop->frontend;
@@ -1228,7 +1228,7 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             $shop = \VanguardLTE\Shop::find($shop_id);
             $currentSliderNum = -1;
             $category1 = '';
-            $frontend = settings('frontend');
+            $frontend = settings('frontend') ?: 'Default';
             if( $shop_id && $shop ) 
             {
                 $frontend = $shop->frontend;
