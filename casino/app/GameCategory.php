@@ -3,7 +3,7 @@ namespace VanguardLTE
 {
     class GameCategory extends \Illuminate\Database\Eloquent\Model
     {
-        protected $table = 'game_categories';
+        protected $table = 'w_game_categories';
         protected $fillable = [
             'game_id', 
             'category_id'

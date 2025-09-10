@@ -3,7 +3,7 @@ namespace VanguardLTE
 {
     class ShopUser extends \Illuminate\Database\Eloquent\Model
     {
-        protected $table = 'shops_user';
+        protected $table = 'w_shops_user';
         protected $fillable = [
             'shop_id', 
             'user_id'

@@ -3,7 +3,7 @@ namespace VanguardLTE
 {
     class Permission extends \Illuminate\Database\Eloquent\Model
     {
-        protected $table = 'permissions';
+        protected $table = 'w_permissions';
         protected $fillable = [
             'name', 
             'display_name', 

@@ -3,7 +3,7 @@ namespace VanguardLTE
 {
     class JPG extends \Illuminate\Database\Eloquent\Model
     {
-        protected $table = 'jpg';
+        protected $table = 'w_jpg';
         protected $fillable = [
             'date_time', 
             'name', 

@@ -3,7 +3,7 @@ namespace VanguardLTE
 {
     class Shop extends \Illuminate\Database\Eloquent\Model
     {
-        protected $table = 'shops';
+        protected $table = 'w_shops';
         protected $fillable = [
             'name', 
             'balance', 
@@ -249,11 +249,17 @@ namespace VanguardLTE
             {
                 return true;
             }
-            $parent = User::find($this->creator->id)->first();
-            if( $parent->is_blocked ) 
+            
+            // Check if creator exists
+            if( $this->creator && $this->creator->id ) 
             {
-                return true;
+                $parent = User::find($this->creator->id)->first();
+                if( $parent && $parent->is_blocked ) 
+                {
+                    return true;
+                }
             }
+            
             if( $this->is_blocked ) 
             {
                 return true;

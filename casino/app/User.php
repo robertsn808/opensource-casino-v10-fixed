@@ -7,7 +7,7 @@ namespace VanguardLTE
             \Illuminate\Notifications\Notifiable, 
             \jeremykenedy\LaravelRoles\Traits\HasRoleAndPermission;
         protected $presenter = 'VanguardLTE\Presenters\UserPresenter';
-        protected $table = 'users';
+        protected $table = 'w_users';
         protected $dates = [
             'last_login', 
             'birthday'

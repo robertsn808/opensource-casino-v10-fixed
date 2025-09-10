@@ -3,9 +3,114 @@
 
 
 var fs = require('fs');
+var mysql = require('mysql');
 var serverConfig;
 
 serverConfig = JSON.parse(fs.readFileSync('../../socket_config2.json', 'utf8'));
+
+// MySQL connection for Laravel database
+var dbConnection = mysql.createConnection({
+  host: '172.19.0.3',
+  port: 3306,
+  user: 'casino_user',
+  password: 'casino_pass',
+  database: 'cashout'
+});
+
+// Connect to database
+dbConnection.connect((err) => {
+  if (err) {
+    console.log('Database connection failed: ' + err.stack);
+    return;
+  }
+  console.log('Connected to MySQL database as id ' + dbConnection.threadId);
+});
+
+// Function to validate session token
+function validateSessionToken(sessionToken, callback) {
+  var query = 'SELECT user_id, game_id, balance, expires_at, active FROM w_game_sessions WHERE session_token = ? AND active = 1 AND expires_at > NOW()';
+  
+  dbConnection.query(query, [sessionToken], (err, results) => {
+    if (err) {
+      console.log('Session validation error:', err);
+      callback(false, null);
+      return;
+    }
+    
+    if (results.length === 0) {
+      console.log('Invalid or expired session token, checking for demo session');
+      // For demo games, allow session with demo user (user_id = 1)
+      var demoQuery = 'SELECT id as user_id, balance FROM w_users WHERE id = 1 AND is_demo_agent = 0 LIMIT 1';
+      dbConnection.query(demoQuery, [], (err, demoResults) => {
+        if (err || demoResults.length === 0) {
+          console.log('Demo session validation failed');
+          callback(false, null);
+          return;
+        }
+        
+        var demoSession = {
+          user_id: demoResults[0].user_id,
+          game_id: 'demo',
+          balance: demoResults[0].balance,
+          expires_at: null,
+          active: 1
+        };
+        console.log('Using demo session for user:', demoSession.user_id);
+        callback(true, demoSession);
+      });
+      return;
+    }
+    
+    var session = results[0];
+    console.log('Valid session found for user:', session.user_id, 'game:', session.game_id, 'balance:', session.balance);
+    callback(true, session);
+  });
+}
+
+// Function to update user balance in Laravel database
+function updateUserBalance(userId, newBalance, callback) {
+  var updateQueries = [
+    'UPDATE w_users SET balance = ? WHERE id = ?',
+    'UPDATE w_game_sessions SET balance = ? WHERE user_id = ?'
+  ];
+  
+  // Update both users table and game sessions
+  var completedQueries = 0;
+  var hasError = false;
+  
+  updateQueries.forEach((query) => {
+    dbConnection.query(query, [newBalance, userId], (err, results) => {
+      completedQueries++;
+      
+      if (err) {
+        console.log('Balance update error:', err);
+        hasError = true;
+      }
+      
+      if (completedQueries === updateQueries.length) {
+        if (!hasError) {
+          console.log('Balance updated successfully for user:', userId, 'new balance:', newBalance);
+        }
+        if (callback) callback(!hasError);
+      }
+    });
+  });
+}
+
+// Function to get current user balance
+function getUserBalance(userId, callback) {
+  var query = 'SELECT balance FROM w_users WHERE id = ?';
+  
+  dbConnection.query(query, [userId], (err, results) => {
+    if (err || results.length === 0) {
+      console.log('Error getting balance:', err);
+      callback(null);
+      return;
+    }
+    
+    callback(results[0].balance);
+  });
+}
 	
 
 /*-----------------------------------*/
@@ -144,6 +249,12 @@ responsePacket.writeString(sAnswer.currency);
 
 responsePacket.offset=6;
 responsePacket.writeUint32(sAnswer.Credit);
+
+// Update WebSocket connection balance
+if (ws.userId) {
+  ws.userBalance = sAnswer.Credit;
+  console.log('Updated balance for user', ws.userId, 'to', sAnswer.Credit);
+}
 
 }
 
@@ -795,6 +906,20 @@ cOffset+=4;
 
 }
 
+// Synchronize balance changes with Laravel database
+if (sAnswer && sAnswer.Credit && ws.userId && ws.userBalance !== sAnswer.Credit) {
+  console.log('Balance changed for user', ws.userId, 'from', ws.userBalance, 'to', sAnswer.Credit);
+  
+  // Update balance in Laravel database
+  updateUserBalance(ws.userId, sAnswer.Credit, function(success) {
+    if (success) {
+      ws.userBalance = sAnswer.Credit;
+      console.log('Balance synchronized successfully for user', ws.userId);
+    } else {
+      console.log('Failed to synchronize balance for user', ws.userId);
+    }
+  });
+}
 
 ws.send(responsePacket.buffer);	
 
@@ -862,18 +987,31 @@ if(ws.msgId==0){
 var msgString=DecodeMessage(message);	
 var msgJson=JSON.parse(msgString.split(":::")[1]);	
 	
+// Extract session token from the message (should be in sessionId field)
+var sessionToken = msgJson.sessionId;
+console.log('Received connection with session token:', sessionToken);
 
-	
-ws.cookie=msgJson.cookie;	
-ws.sessionId=msgJson.sessionId;	
-ws.gameName=msgJson.gameName;	
+// Validate session token against Laravel database
+validateSessionToken(sessionToken, function(isValid, sessionData) {
+  if (!isValid) {
+    console.log('Invalid session token, closing connection');
+    ws.close(1008, 'Invalid session token');
+    return;
+  }
+  
+  // Store validated session data
+  ws.cookie=msgJson.cookie;	
+  ws.sessionId=sessionToken;	
+  ws.gameName=msgJson.gameName;	
+  ws.userId=sessionData.user_id;
+  ws.userBalance=sessionData.balance;
+  
+  console.log('WebSocket authenticated for user:', ws.userId, 'game:', ws.gameName, 'balance:', ws.userBalance);
+  
+  // Send initial response to confirm connection
+  ws.send(hexToArrayBuffer('010010000000eb297b05000000001ed9000081300100010000001900000faffff100204e00000a000000204e0000840a00005d0000003c0000000f00000000000000010000000100000001000000010000001027000077943febd0974dbcae489bf1f311b770ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff32be050005004d61727932010000006a1fd7dd00000000'));	
+});
 
-
-	
-ws.send(hexToArrayBuffer('010010000000eb297b05000000001ed9000081300100010000001900000faffff100204e00000a000000204e0000840a00005d0000003c0000000f00000000000000010000000100000001000000010000001027000077943febd0974dbcae489bf1f311b770ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff32be050005004d61727932010000006a1fd7dd00000000'));	
-
-
-	
 	
 }else if(ws.msgId==1){
 	

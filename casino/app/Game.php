@@ -3,7 +3,7 @@ namespace VanguardLTE
 {
     class Game extends \Illuminate\Database\Eloquent\Model
     {
-        protected $table = 'games';
+        protected $table = 'w_games';
         protected $hidden = [
             'created_at', 
             'updated_at'

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Auth;
 {
     class Tournament extends \Illuminate\Database\Eloquent\Model
     {
-        protected $table = 'tournaments';
+        protected $table = 'w_tournaments';
         protected $fillable = [
             'name', 
             'start', 

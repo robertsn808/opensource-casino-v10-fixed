@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => 'mysql',
 
     /*
     |--------------------------------------------------------------------------
@@ -33,17 +33,17 @@ return [
 
     'connections' => [
 
-        'sqlite' => [
-            'driver'   => 'sqlite',
-            'database' => env('DB_DATABASE', database_path('database.sqlite')),
-            'prefix'   => env('DB_PREFIX', ''),
-        ],
+        // 'sqlite' => [
+        //     'driver'   => 'sqlite',
+        //     'database' => env('DB_DATABASE', database_path('database.sqlite')),
+        //     'prefix'   => env('DB_PREFIX', ''),
+        // ],
 
-        'sqlite_memory' => [
-            'driver'   => 'sqlite',
-            'database' => ':memory:',
-            'prefix'   => env('DB_PREFIX', ''),
-        ],
+        // 'sqlite_memory' => [
+        //     'driver'   => 'sqlite',
+        //     'database' => ':memory:',
+        //     'prefix'   => env('DB_PREFIX', ''),
+        // ],
 
         'mysql' => [
             'driver' => 'mysql',
@@ -56,12 +56,15 @@ return [
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
-            'prefix' => 'w_',
+            'prefix' => '',
             'prefix_indexes' => true,
             'strict' => false,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
+                PDO::ATTR_TIMEOUT => 30,
+                PDO::MYSQL_ATTR_INIT_COMMAND => 'SET SESSION wait_timeout=600',
+                PDO::ATTR_PERSISTENT => false,
             ]) : [],
         ],
 
@@ -111,10 +114,7 @@ return [
     |
     | Redis is an open source, fast, and advanced key-value store that also
     | provides a richer set of commands than a typical key-value systems
-    | such as APC or Memcached. Laravel makes it easy to dig right in.
-    |
-    | Note: Don't forget to uncomment RedisServiceProvider inside config/app.php
-    | file after you install predis package.
+.
     |
     */
 
