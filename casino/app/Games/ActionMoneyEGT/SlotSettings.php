@@ -58,6 +58,25 @@ namespace VanguardLTE\Games\ActionMoneyEGT
         public $shop = null;
         public $jpgPercentZero = false;
         public $count_balance = null;
+        public $username = null;
+        public $increaseRTP = null;
+        public $CurrentDenomGame = null;
+        public $Denominations = null;
+        public $CurrentDenom = null;
+        public $AllBet = null;
+        public $MaxWin = null;
+        public $slotCurrency = null;
+        public $gameData = [];
+        public $gameDataStatic = [];
+        public $slotJackPercent = [];
+        public $slotJackpot = [];
+        public $slotFastStop = null;
+        public $betProfit = null;
+        public $toGameBanks = null;
+        public $toSlotJackBanks = null;
+        public $toSysJackBanks = null;
+        public $betRemains = null;
+        public $betRemains0 = null;
         public function __construct($sid, $playerId)
         {
             $this->slotId = $sid;
@@ -237,12 +256,20 @@ namespace VanguardLTE\Games\ActionMoneyEGT
             $this->slotFreeMpl = 1;
             $this->slotViewState = ($game->slotViewState == '' ? 'Normal' : $game->slotViewState);
             $this->hideButtons = [];
-            $this->jpgs = \VanguardLTE\JPG::where('shop_id', $this->shop_id)->lockForUpdate()->get();
+            $jpgCollection = \VanguardLTE\JPG::where('shop_id', $this->shop_id)->lockForUpdate()->get();
+            
+            // Convert Collection to properly indexed array starting from 0
+            $this->jpgs = [];
+            $index = 0;
+            foreach($jpgCollection as $jpg) {
+                $this->jpgs[$index] = $jpg;
+                $index++;
+            }
             $this->slotJackPercent = [];
             $this->slotJackpot = [];
             for( $jp = 0; $jp < 4; $jp++ ) 
             {
-                if( $this->jpgs[$jp]->balance != '' ) 
+                if( isset($this->jpgs[$jp]) && $this->jpgs[$jp]->balance != '' ) 
                 {
                     $this->slotJackpot[$jp] = sprintf('%01.4f', $this->jpgs[$jp]->balance);
                     $this->slotJackpot[$jp] = substr($this->slotJackpot[$jp], 0, strlen($this->slotJackpot[$jp]) - 2);
@@ -283,7 +310,7 @@ namespace VanguardLTE\Games\ActionMoneyEGT
                 14, 
                 15
             ];
-            $this->Bet = explode(',', $game->bet);
+            $this->Bet = explode(',', $game->bet ?? '0.01,0.02,0.05,0.10,0.20');
             $this->Bet = array_slice($this->Bet, 0, 5);
             $this->Balance = $user->balance;
             $this->SymbolGame = [
@@ -298,11 +325,11 @@ namespace VanguardLTE\Games\ActionMoneyEGT
                 8
             ];
             $this->Bank = $game->get_gamebank();
-            $this->Percent = $this->shop->percent;
-            $this->MaxWin = $this->shop->max_win;
+            $this->Percent = ($this->shop && $this->shop->percent) ? $this->shop->percent : 95;
+            $this->MaxWin = ($this->shop && $this->shop->max_win) ? $this->shop->max_win : 10000;
             $this->WinGamble = $game->rezerv;
             $this->slotDBId = $game->id;
-            $this->slotCurrency = $user->shop->currency;
+            $this->slotCurrency = ($user->shop && $user->shop->currency) ? $user->shop->currency : 'USD';
             $this->count_balance = $user->count_balance;
             if( $user->address > 0 && $user->count_balance == 0 ) 
             {
@@ -556,7 +583,7 @@ namespace VanguardLTE\Games\ActionMoneyEGT
             {
                 $slg = file_get_contents(storage_path('logs/') . $this->slotId . 'Internal.log');
             }
-            file_put_contents(storage_path('logs/') . $this->slotId . 'Internal.log', $slg . $strLog);
+            // file_put_contents(storage_path('logs/') . $this->slotId . 'Internal.log', $slg . $strLog);
         }
         public function InternalError($errcode)
         {
@@ -571,7 +598,7 @@ namespace VanguardLTE\Games\ActionMoneyEGT
             {
                 $slg = file_get_contents(storage_path('logs/') . $this->slotId . 'Internal.log');
             }
-            file_put_contents(storage_path('logs/') . $this->slotId . 'Internal.log', $slg . $strLog);
+            // file_put_contents(storage_path('logs/') . $this->slotId . 'Internal.log', $slg . $strLog);
             exit( '' );
         }
         public function SetBank($slotState = '', $sum, $slotEvent = '')
@@ -866,7 +893,7 @@ namespace VanguardLTE\Games\ActionMoneyEGT
             $this->AllBet = $bet * $lines;
             $linesPercentConfigSpin = $this->game->get_lines_percent_config('spin');
             $linesPercentConfigBonus = $this->game->get_lines_percent_config('bonus');
-            $currentPercent = $this->shop->percent;
+            $currentPercent = ($this->shop && $this->shop->percent) ? $this->shop->percent : 95;
             $currentSpinWinChance = 0;
             $currentBonusWinChance = 0;
             $percentLevel = '';

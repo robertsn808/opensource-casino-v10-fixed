@@ -982,11 +982,16 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             }else{
                 $freeUser = \Auth::getProvider()->retrieveByCredentials(array('email'=>'demo01@gmail.com'));
                 if(!$freeUser){
-                    // Fallback: try to find or create a demo user
-                    $freeUser = \VanguardLTE\User::where('email', 'demo01@gmail.com')->first();
-                    if(!$freeUser) {
-                        // Use the first user as fallback
-                        $freeUser = \VanguardLTE\User::find(1);
+                    // Fallback: try to find demo user directly in database
+                    $demoUserData = \DB::table('w_users')->where('email', 'demo01@gmail.com')->first();
+                    if($demoUserData) {
+                        $freeUser = \VanguardLTE\User::find($demoUserData->id);
+                    } else {
+                        // Use the first active user as fallback
+                        $freeUser = \VanguardLTE\User::where('status', 1)->first();
+                        if(!$freeUser) {
+                            $freeUser = \VanguardLTE\User::find(1);
+                        }
                     }
                 }
                 
