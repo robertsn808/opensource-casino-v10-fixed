@@ -994,7 +994,10 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
                     $freeUser->balance = 10000;
                     $freeUser->count_balance = 10000;
                     $freeUser->last_login = \Carbon\Carbon::now();
-                    $freeUser->session = '';
+                    // Older schemas may not have a 'session' column on w_users; set only if present
+                    if(\Illuminate\Support\Facades\Schema::hasColumn('w_users','session')){
+                        $freeUser->session = '';
+                    }
                     
                     $userId = $freeUser->id;
                     $freeUser->save();
@@ -1064,9 +1067,44 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
             }
             $slot = new $object($game->name, $userId);
             $is_api = false;
+            // Determine assets base folder (some games have variant folders, e.g., BookOfRaDX*)
+            $assetsBase = $game->name;
+            $assetsFound = false;
+            try {
+                $publicGames = public_path('games');
+                if (is_dir($publicGames . '/' . $assetsBase)) {
+                    $assetsFound = true;
+                } else {
+                    $candidates = glob($publicGames . '/' . $gameName . '*', GLOB_ONLYDIR) ?: [];
+                    if (count($candidates)) {
+                        $assetsBase = basename($candidates[0]);
+                        $assetsFound = true;
+                    }
+                }
+            } catch (\Throwable $e) {
+                // keep default
+            }
+            if (!$assetsFound) {
+                return redirect()->route('frontend.game.list')->withErrors("Game files for {$gameName} not found on server.");
+            }
+            // Load socket config once and pass to template to avoid sync XHR
+            $serverConfig = [];
+            try {
+                $configPath = base_path('../socket_config.json');
+                if (file_exists($configPath)) {
+                    $serverConfig = json_decode(file_get_contents($configPath), true) ?: [];
+                }
+            } catch (\Throwable $e) {
+                $serverConfig = [];
+            }
+            
+            // Generate session token for WebSocket games
+            $sessionToken = $this->generateGameSessionToken($userId, $game->name);
+            $this->storeGameSession($sessionToken, $userId, $game->name);
+            
             $gameView = 'frontend.games.list.' . $game->name;
             if (\Illuminate\Support\Facades\View::exists($gameView)) {
-                return view($gameView, compact('slot', 'game', 'is_api'));
+                return view($gameView, compact('slot', 'game', 'is_api', 'serverConfig', 'assetsBase', 'sessionToken'));
             }
             // Fallback: use generic external wrapper if specific game view is missing
             return $this->external($request, $game->name);
@@ -1312,6 +1350,13 @@ namespace VanguardLTE\Http\Controllers\Web\Frontend
         }
         public function server(\Illuminate\Http\Request $request, $game)
         {
+            // Normalize session identifier from various clients
+            if (!$request->sessionId) {
+                $sid = $request->input('sessionId') ?? $request->input('sessionKey') ?? $request->input('session_key') ?? $request->input('token') ?? '';
+                if ($sid) {
+                    $request->merge(['sessionId' => $sid]);
+                }
+            }
             // Always respond JSON for game server requests
             try {
                 // Use or create a demo user and ensure it matches default games scope

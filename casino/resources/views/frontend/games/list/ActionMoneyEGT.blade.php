@@ -20,80 +20,77 @@
 
 	var serverConfig;
     var  serverString;
-    var XmlHttpRequest = new XMLHttpRequest();
-    XmlHttpRequest.overrideMimeType("application/json");
-    XmlHttpRequest.open('GET', '/socket_config.json', false);
-    XmlHttpRequest.onreadystatechange = function ()
-    {
-        if (XmlHttpRequest.readyState == 4 && XmlHttpRequest.status == "200")
-        {
-            serverConfig = JSON.parse(XmlHttpRequest.responseText);
-            serverString=serverConfig.prefix_ws+serverConfig.host_ws+':'+serverConfig.port;
-          
-        }
+    // Prefer server-injected config to avoid sync XHR
+    @if(isset($serverConfig) && is_array($serverConfig))
+        window.serverConfig = window.serverConfig || {!! json_encode($serverConfig) !!};
+    @endif
+    
+    function loadServerConfig(){
+        return new Promise(function(resolve){
+            if(window.serverConfig){ return resolve(window.serverConfig); }
+            try{
+                fetch('/socket_config.json', {cache: 'no-cache'})
+                  .then(function(r){ return r.ok ? r.json() : {}; })
+                  .then(function(cfg){ window.serverConfig = cfg || {}; resolve(window.serverConfig); })
+                  .catch(function(){ resolve({}); });
+            }catch(e){ resolve({}); }
+        });
     }
-    XmlHttpRequest.send(null);
-		
-		var sslHost=false;
-		
-		if(serverConfig.prefix_ws=='wss://'){
-		sslHost=true;
-		}
-		
-         var gameName='ActionMoneyEGT';
-		$(function(){
+        var sslHost=false;
+        var gameName='ActionMoneyEGT';
+        
+        function startGame(){
+            if(window.serverConfig && window.serverConfig.prefix_ws==='wss://'){
+                sslHost=true;
+            }
 
-			var connectionParams = {
-				sslHost: sslHost,
-				tcpHost: serverConfig.host_ws,
-				tcpPort: serverConfig.port,
-				sessionKey: "41be9e65e0ff03a65e8c93576bf61130",
-				lang: "en",
-				gameIdentificationNumber: "851"
-			};
+            var connectionParams = {
+                sslHost: sslHost,
+                tcpHost: (window.serverConfig && window.serverConfig.host_ws) || 'localhost',
+                tcpPort: (window.serverConfig && window.serverConfig.port) || '22197',
+                sessionKey: "{{ $sessionToken ?? 'demo_session_'.time() }}",
+                lang: "en",
+                gameIdentificationNumber: "851"
+            };
 
-			var additionalParams = {
-				base: "/games/"+gameName+"/html5/"
-			};
+            var additionalParams = {
+                base: "/games/"+gameName+"/html5/"
+            };
 
-if(device.desktop()){
+            if(device.desktop()){
+                $.ajax({
+                    type: "GET",
+                    crossDomain: "false",
+                    url: "../init/init_desktop_cf_test.js",
+                    dataType: "script",
+                    contentType: "text/plain",
+                    success: function() {
+                        if (typeof initDesktopHtml === 'function') {
+                            initDesktopHtml(connectionParams);
+                        }
+                    }
+                });
+            } else {
+                $.ajax({
+                    type: "GET",
+                    crossDomain: "false",
+                    url: "../init/init_mobile_cf_test.js",
+                    dataType: "script",
+                    contentType: "text/plain",
+                    success: function() {
+                        if (window.EGT && typeof EGT.initMobile === 'function') {
+                            EGT.initMobile(connectionParams);
+                        }
+                    }
+                });
+            }
+        }
 
-			$.ajax({
-				type: "GET",
-				crossDomain: "false",
-				url: "../init/init_desktop_cf_test.js",
-				dataType: "script",
-				contentType: "text/plain",
-				success: function() {
-					initDesktopHtml(connectionParams);				}
-			});
-			
-			
-	}else{
-			
-					$.ajax({
-
-				type: "GET",
-
-				crossDomain: "false",
-
-				url: "../init/init_mobile_cf_test.js",
-
-				dataType: "script",
-
-				contentType: "text/plain",
-
-				success: function() {
-
-					EGT.initMobile(connectionParams);				}
-
-			});
-
-			
-		}
-			
-
-		});
+        $(function(){
+            loadServerConfig().then(function(){
+                startGame();
+            });
+        });
 			var exitUrl='';
 		if(document.location.href.split("api_exit=")[1]!=undefined){
 		exitUrl=document.location.href.split("api_exit=")[1].split("&")[0];
@@ -121,5 +118,3 @@ document.location.href=exitUrl;
 <body>
 </body>
 </html>
-
-

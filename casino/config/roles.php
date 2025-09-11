@@ -24,11 +24,11 @@ return [
     |
     */
 
-    'rolesTable' => 'roles',
-    'roleUserTable' => 'role_user',
-    'permissionsTable' => 'permissions',
-    'permissionsRoleTable' => 'role_permissions',
-    'permissionsUserTable' => 'permission_user',
+    'rolesTable' => 'w_roles',
+    'roleUserTable' => 'w_role_user',
+    'permissionsTable' => 'w_permissions',
+    'permissionsRoleTable' => 'w_permission_role',
+    'permissionsUserTable' => 'w_permission_user',
 
     /*
     |--------------------------------------------------------------------------

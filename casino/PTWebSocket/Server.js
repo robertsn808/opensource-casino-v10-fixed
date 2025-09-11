@@ -1,20 +1,50 @@
 
-
-
-
 var fs = require('fs');
 var mysql = require('mysql');
 var serverConfig;
 
+// Load .env to override defaults
+function loadEnv(path) {
+  try {
+    const content = fs.readFileSync(path, 'utf8');
+    const env = {};
+    content.split(/\r?\n/).forEach(line => {
+      if (!line || line.trim().startsWith('#')) return;
+      const idx = line.indexOf('=');
+      if (idx === -1) return;
+      const key = line.slice(0, idx).trim();
+      let val = line.slice(idx + 1).trim();
+      if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith('\'') && val.endsWith('\''))) {
+        val = val.slice(1, -1);
+      }
+      env[key] = val;
+    });
+    return env;
+  } catch (e) {
+    return {};
+  }
+}
+const ENV = Object.assign({}, loadEnv('../.env'), process.env);
+
 serverConfig = JSON.parse(fs.readFileSync('../../socket_config2.json', 'utf8'));
+if (ENV.SOCKET_SERVER_PORT) {
+  serverConfig.port = parseInt(ENV.SOCKET_SERVER_PORT, 10) || serverConfig.port;
+}
+serverConfig.host = ENV.SOCKET_HOST || serverConfig.host;
+serverConfig.prefix = ENV.SOCKET_PREFIX || serverConfig.prefix;
+serverConfig.host_ws = ENV.SOCKET_WS_HOST || serverConfig.host_ws;
+serverConfig.prefix_ws = ENV.SOCKET_WS_PREFIX || serverConfig.prefix_ws;
+if (typeof ENV.SOCKET_SSL !== 'undefined') {
+  serverConfig.ssl = (String(ENV.SOCKET_SSL).toLowerCase() === 'true' || ENV.SOCKET_SSL === '1');
+}
 
 // MySQL connection for Laravel database
 var dbConnection = mysql.createConnection({
-  host: '172.19.0.3',
-  port: 3306,
-  user: 'casino_user',
-  password: 'casino_pass',
-  database: 'cashout'
+  host: ENV.DB_HOST || 'casino_mysql',
+  port: parseInt(ENV.DB_PORT || '3306', 10),
+  user: ENV.DB_USERNAME || 'casino_user',
+  password: ENV.DB_PASSWORD || 'casino_pass',
+  database: ENV.DB_DATABASE || 'cashout'
 });
 
 // Connect to database
@@ -956,6 +986,21 @@ var wss = new WebSocket.Server({port: serverConfig.port });
 
 }
 
+// Lightweight healthcheck server (separate port) so we don't change WS setup)
+try {
+  var healthPort = (parseInt(serverConfig.port, 10) || 0) + 1;
+  if (healthPort) {
+    require('http').createServer(function(req, res) {
+      res.writeHead(200, {'Content-Type': 'text/plain'});
+      res.end('ok');
+    }).listen(healthPort, function(){
+      console.log('Healthcheck listening on port', healthPort);
+    });
+  }
+} catch (e) {
+  console.log('Healthcheck server init failed:', e.message);
+}
+
 
 //
 function ResponseHandler(msg){
@@ -1211,5 +1256,3 @@ ws.msgId++;
 
 
 });
-
-

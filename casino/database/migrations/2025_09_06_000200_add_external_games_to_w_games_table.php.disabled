@@ -41,10 +41,10 @@ class AddExternalGamesToWGamesTable extends Migration
         // Insert external games into w_games table
         foreach ($externalGames as $game) {
             // Check if game already exists
-            $exists = DB::table('games')->where('name', $game['name'])->exists();
+            $exists = DB::table('w_games')->where('name', $game['name'])->exists();
             
             if (!$exists) {
-                DB::table('games')->insert($game);
+                DB::table('w_games')->insert($game);
                 echo "Added external game: " . $game['name'] . "\n";
             }
         }
